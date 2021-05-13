@@ -1,0 +1,24 @@
+%% commands for full thesis only, not individual chapters
+\setcounter{tocdepth}{3}
+
+\usepackage{epigraph}
+\setlength{\epigraphrule}{0pt}
+\setlength{\epigraphwidth}{0.62\textwidth}
+\setlength{\beforeepigraphskip}{-2\baselineskip}
+\setlength{\afterepigraphskip}{1.25\baselineskip}
+\renewcommand{\textflush}{flushright}
+\renewcommand{\epigraphsize}{\footnotesize}
+
+\let\oldepigraph\epigraph
+\renewcommand{\epigraph}[3]{\oldepigraph{\singlespacing{#1}}{\textsc{#2}, \emph{#3}}}
+
+% chapter labels are distinguished so they can be ignored in single-chapter versions
+\newcommand{\chapterlabel}[1]{\label{#1}}
+\let\chaptertitle\chapter
+
+
+% let single-chapter versions have titles and TOC’S
+\newcommand{\maketitleifstandalone}{}
+\newcommand{\tableofcontentsifstandalone}{}
+
+

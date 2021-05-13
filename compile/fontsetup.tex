@@ -1,0 +1,25 @@
+%TC:ignore
+% font fallback setup
+\usepackage{mathspec}
+\setallmainfonts[Ligatures={Common,TeX}]{Adobe Caslon Pro}
+\setsansfont[Scale=0.9]{Roboto Condensed}
+\setmonofont[Scale=0.8]{Roboto Mono}
+\newfontfamily{\defaultfont}[Ligatures={Common,TeX}]{Adobe Caslon Pro}
+\newfontfamily{\ipa}[Scale=0.95]{Linux Libertine O}
+\newfontfamily{\ipaj}[Scale=1]{Junicode}
+\newfontfamily{\dingfont}[Scale=0.95]{Quivira}
+\newfontfamily{\otherding}[Scale=0.95]{Arial Unicode MS}
+\newfontfamily{\robots}[Scale=0.95]{Roboto Mono}
+\newfontfamily{\emoji}[Scale=1.5]{OpenSansEmoji}
+
+
+\usepackage[Latin, Cyrillics, Greek, Phonetics, ModifierToneLetters, SpacingModifierLetters,CombiningDiacriticalMarks,Symbols]{ucharclasses}
+\setTransitionsFor{BasicLatin}{\defaultfont}{\defaultfont}
+\setTransitionsForCyrillics{\ipa}{\defaultfont}
+\setTransitionsForGreek{\ipa}{\defaultfont}
+\setTransitionsFor{CombiningDiacriticalMarks}{\ipa}{\defaultfont}
+\setTransitionsFor{LatinExtendedA}{\ipa}{\defaultfont}
+\setTransitionTo{IPAExtensions}{\ipa}
+\setTransitionsFor{ModifierToneLetters}{\ipa}{\defaultfont}
+\setTransitionsFor{SpacingModifierLetters}{\ipa}{\defaultfont}
+%TC:endignore

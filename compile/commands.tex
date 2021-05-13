@@ -1,0 +1,65 @@
+%TC:ignore
+\newcommand\nth{\textsuperscript{th} }
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\newcommand\ur[1]{\mbox{/#1/}}
+\definecolor{link}{HTML}{00AACC}
+\definecolor{map}{HTML}{2299CC}
+\definecolor{todo}{HTML}{CC0066}
+\definecolor{fake}{HTML}{FFFF99}
+\newcommand\todo[1]{\textcolor{todo}{\bfseries FIXME #1}}
+\newcommand\oo[1]{\textcolor{red}{\bfseries #1}}
+\newcommand\loan[1]{\textcolor{OrangeRed}{#1}}
+\newcommand\remark[1]{\textcolor{todo}{\bfseries FIXME #1}}
+  \newcommand\dolater[1]{}
+\newcommand{\fig}[1]{figure \ref{#1}}
+\newcommand{\sref}[1]{[\S \ref{#1}]}
+\newcommand\dialect{\textsuperscript{\emph{d}}}
+\newcommand\ds{\textsuperscript{\emph{D}}}
+\newcommand\instance{chapter}
+\newcommand\thesisonly[1]{#1}
+\newcommand\hand{\ipa{☞ }}
+\newcommand\bomb{\dingfont{💣}}
+\newcommand\sadface{\otherding{☹}}
+\newcommand\mytt[1]{{\uccoff\tt{\addfontfeature{LetterSpace=-1.0}#1}\uccon}}
+\newcommand\myipa[1]{{\uccoff\ipa{#1}\uccon}}
+\newcommand\myipaj[1]{{\uccoff\ipaj{#1}\uccon}}
+\newcommand\defs[1]{{\uccoff\addfontfeature{LetterSpace=4.0}\textsc{#1}\uccon}}
+\newcommand\lang[1]{{\uccoff\addfontfeature{LetterSpace=4.0}\textsc{#1}\uccon}}
+\newcommand\gloss[1]{{\uccoff\footnotesize{\scshape #1}\uccon}}
+\newcommand{\phonslash}{~\begin{large}{\ensuremath{/}}\end{large}~}
+\newcommand{\phonenv}{~\underline{\hspace{8pt}}~}
+
+% colour declarations
+\newcommand\yes[1]{\cellcolor{black!10}{#1}}
+\newcommand\class[1]{\cellcolor{blue!15}{#1}}
+\newcommand\surprise[1]{\cellcolor{yellow!25}{#1}}
+\newcommand\done{\rowcolor{black!5}}
+\newcommand\no{\cellcolor{black!50!white}}
+\newcommand\idk{$*$}
+\newcommand\rl{\cellcolor{black!25!white}$*$}
+\newcommand\rowyes{\rowcolor{black!10}}
+%TC:endignore
+
+
+
+\newcommand{\attrib}[1]{%
+\nopagebreak{\raggedleft\footnotesize #1\par}}
+
+\hyphenation{Maw-kanuli}
+
+% new shortstack: \Shortstack[<alignment>]{<baselineskip>}{<contents>}
+\makeatletter
+\gdef\Shortstack{\@ifnextchar[\@Shortstack{\@Shortstack[c]}}
+\gdef\@Shortstack[#1]#2{%
+  \leavevmode
+  \vbox\bgroup
+    \baselineskip-\p@\lineskip 3\p@
+    \let\mb@l\hss\let\mb@r\hss
+    \expandafter\let\csname mb@#1\endcsname\relax
+    \let\\\@stackcr\setlength{\baselineskip}{#2}%
+    \@ishortstack}
+\makeatother
+
+\setlength{\dashlinedash}{0.4pt}
+\setlength{\dashlinegap}{2pt}
+\setlength{\arrayrulewidth}{0.4pt}
