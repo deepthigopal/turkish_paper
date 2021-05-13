@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.4.8)  13 MAY 2021 14:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.4.8)  13 MAY 2021 14:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2990,19 +2990,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 17.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 17.
 Package rerunfilecheck Info: File `single_chapter.out' has not changed.
 (rerunfilecheck)             Checksum: 66544931D284286B1A925D5AFBA85423;1957.
+Package rerunfilecheck Info: File `single_chapter.brf' has not changed.
+(rerunfilecheck)             Checksum: 19A542991D025AEB0A416DE67E001640;8673.
 
-
-Package rerunfilecheck Warning: File `single_chapter.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `single_chapter.brf':
-(rerunfilecheck)             Before: DDD46D0E50CF4297443B5C957C2BCDE7;811
-(rerunfilecheck)             After:  19A542991D025AEB0A416DE67E001640;8673.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
