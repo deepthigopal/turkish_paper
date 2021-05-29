@@ -1,0 +1,48 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{auto-pst-pdf}
+\usetikzlibrary{decorations.pathmorphing,shapes,backgrounds,arrows.meta,arrows,automata,positioning,fit}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc,decorations.pathreplacing}
+\usetikzlibrary{arrows}
+\tikzstyle{startstop} = [draw, rounded rectangle, text centered, draw=black,thick]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, text centered]
+\tikzstyle{process} = [rectangle, text centered, draw=black,thick]
+\tikzstyle{decision} = [diamond, text centered, draw=black,thick]
+\tikzstyle{arrow} = [-{Stealth[scale=1.2]},rounded corners,thick]
+
+\usepackage{xcolor}
+\definecolor{link}{HTML}{00AACC}
+\definecolor{map}{HTML}{2299CC}
+\definecolor{todo}{HTML}{CC0066}
+\definecolor{fake}{HTML}{FFFF99}
+\usepackage{mathspec}
+\setallmainfonts{Times New Roman} 
+\begin{document}
+\begin{tikzpicture}[vowel/.style={fill, circle, inner sep=0pt, text height=1.25ex,anchor=mid,scale=0.9}]
+\coordinate (hf) at (0,3); % the high front vertex
+\coordinate (hb) at (4,3); % the high back vertex
+\coordinate (lb) at (4,0); % the low back vertex
+\coordinate (lf) at (2,0); % the low front vertex
+
+\draw (hf) -- (hb) -- (lb) -- (lf) -- cycle; % draws the trapezoid
+
+\node[vowel,label={[label distance=-1pt]left:i\strut}] at (0,3-0.2) {};
+\node[vowel,label={[label distance=-1pt]right:y\strut}] at (0.25,3-0.2) {};
+\node[vowel,label={[label distance=-1pt]left:e\strut}] (e) at (0.6,2-0.1) {};
+\node[vowel,label={[label distance=-1pt]right:ø\strut}] (o) at (0.85,2-0.1) {};
+\node[vowel,label={[label distance=-1pt]left:ɑ\strut}] at (3.9,0+0.2) {};
+\node[vowel,label={[label distance=-1pt]left:ɯ\strut}] at (3.9,3-0.2) {};
+\node[vowel,label={[label distance=-1pt]right:u\strut}] at (4.1,3-0.2) {};
+\node[vowel,label={[label distance=-1pt]right:o\strut}] at (4.1,2-0.1) {};
+
+\node[vowel,label={[label distance=-1pt, text=link]left:æ}, fill=link] (ae) at (1.525,0.5) {};
+\node[vowel,label={[label distance=-1pt, text=todo]right:œ}, fill=todo] (oe) at (1.475,1) {};
+
+\draw [draw=link,-{Triangle[angle=45:2.5mm]},fill=link,ultra thick] (e) --+ (ae);
+\draw [draw=todo,-{Triangle[angle=45:2.5mm]},fill=todo,ultra thick] (o) --+ (oe);
+
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,431 @@
+\begin{thebibliography}{95}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Adank et~al.(2004)Adank, Smits, and Van~Hout}]{Adank2004}
+Adank P, Smits R, Van~Hout R (2004) A comparison of vowel normalization
+  procedures for language variation research. Journal of the Acoustical Society
+  of America 116(5):3099--3107
+
+\bibitem[{\'{A}rnason(1999)}]{Arnason1999}
+\'{A}rnason K (1999) The Phonology of {Icelandic and Faroese}. Oxford
+  University Press, Oxford
+
+\bibitem[{Bach and Harms(1972)}]{Bach1972}
+Bach E, Harms RT (1972) How do languages get crazy rules? In: Stockwell RP,
+  Macaulay RKS (eds) Linguistic change and generative theory, Indiana
+  University Press, Bloomington, pp 1--21
+
+\bibitem[{Barnes(2007)}]{Barnes2007}
+Barnes J (2007) Phonetics and phonology in {R}ussian unstressed vowel
+  reduction: a study in hyperarticulation, mS., Boston University
+
+\bibitem[{Bates et~al.(2015)Bates, M{\"a}chler, Bolker, and Walker}]{lme4}
+Bates D, M{\"a}chler M, Bolker B, Walker S (2015) Fitting linear mixed-effects
+  models using {lme4}. Journal of Statistical Software 67(1):1--48
+
+\bibitem[{Beddor(1993)}]{Beddor1993}
+Beddor PS (1993) The perception of nasal vowels. In: Huffman MK, Krakow RA
+  (eds) Nasals, Nasalization, and the Velum, Phonetics and Phonology, vol~5,
+  Academic Press, San Diego, pp 171 -- 196
+
+\bibitem[{Beddor et~al.(1986)Beddor, Krakow, and Goldstein}]{Beddor1986}
+Beddor PS, Krakow RA, Goldstein LM (1986) Perceptual constraints and
+  phonological change: A study of nasal vowel height. Phonology Yearbook
+  3:197--217
+
+\bibitem[{Berm{\'{u}}dez-Otero(2007)}]{BermudezOtero2007}
+Berm{\'{u}}dez-Otero R (2007) Diachronic phonology. In: de~Lacy P (ed) The
+  {Cambridge} Handbook of Phonology, Cambridge University Press, Cambridge, p
+  497–517
+
+\bibitem[{Berm{\'{u}}dez-Otero(2015)}]{BermudezOtero2015}
+Berm{\'{u}}dez-Otero R (2015) Amphichronic explanation and the life cycle of
+  phonological processes. In: Honeybone P, Salmons J (eds) The {Oxford}
+  handbook of historical phonology, Oxford University Press, Oxford, pp
+  374--399
+
+\bibitem[{Bilgin(2016)}]{Zargan}
+Bilgin O (2016) Frequency effects in the processing of morphologically complex
+  turkish words. Master's thesis, Bogaziçi University,
+  \urlprefix\url{http://st2.zargan.com/public/resources/turkish/frequency_effects_in_turkish.pdf}
+
+\bibitem[{Blaskovics(1964)}]{Blaskovics1964}
+Blaskovics J (1964) Gagavuz {T}{\"u}rk{\c{c}}esi Grameri. Türk Dil
+  Kurultayında Okunan Bilimsel Bildiriler, Türk Tarih Kurumu Basımevi,
+  Ankara
+
+\bibitem[{Blust(2013)}]{Blust2013}
+Blust R (2013) The Austronesian languages. Asia-Pacific Linguistics, Canberra
+
+\bibitem[{Boersma and Weenink(2017)}]{Praat}
+Boersma P, Weenink D (2017) Praat: doing phonetics by computer.
+  \urlprefix\url{http://www.praat.org/}
+
+\bibitem[{Botma and Van~Oostendorp(2012)}]{Botma2012}
+Botma B, Van~Oostendorp M (2012) A propos of the {D}utch vowel system 21 years
+  on, 22 years on. In: Botma B, Noske R (eds) Phonological explorations:
+  Empirical, theoretical and diachronic issues, Mouton de Gruyter,
+  Berlin/Boston, pp 1--16
+
+\bibitem[{Bradley(2010)}]{Bradley2010}
+Bradley TG (2010) Mid front vowel lowering before rhotics in {Ibero-Romance}.
+  In: Herschensohn J (ed) {Romance Linguistics 2010}, John Benjamins,
+  Amsterdam, pp 63--78
+
+\bibitem[{Brendemoen(2002)}]{Brendemoen2002}
+Brendemoen B (2002) The {T}urkish dialects of {T}rabzon: their phonology and
+  historical development, vol~1. Otto Harrassowitz Verlag, Wiesbaden
+
+\bibitem[{Butskhrikidze(2002)}]{Butskh2002}
+Butskhrikidze M (2002) The consonant phonotactics of {G}eorgian, LOT
+  Dissertation Series, vol~63. LOT, Utrecht
+
+\bibitem[{Butskhrikidze and van~de Weijer(2001)}]{Butskh2001}
+Butskhrikidze M, van~de Weijer J (2001) On v-metathesis in {Modern Georgian}.
+  In: Hume E, Smith N, van~de Weijer J (eds) {Surface Syllable Structure and
+  Segment Sequencing}, Holland Institute of Generative Linguistics, Leiden
+  University, pp 91--101
+
+\bibitem[{Carter(2002)}]{Carter2002}
+Carter P (2002) Structured variation in {British English} liquids. PhD thesis,
+  University of {Y}ork
+
+\bibitem[{Carter and Local(2007)}]{Carter2007}
+Carter P, Local J (2007) F2 variation in {N}ewcastle and {Leeds English} liquid
+  systems. Journal of the {International Phonetic Association} 37(02):183
+
+\bibitem[{Clements and Sezer(1982)}]{Clements1982}
+Clements GN, Sezer E (1982) {Vowel and Consonant Disharmony in Turkish}. In:
+  Hulst Hvd, Smith N (eds) The Structure of Phonological Representations,
+  Foris, Dordrecht, pp 213--55
+
+\bibitem[{Comrie(1997)}]{Comrie1997Tr}
+Comrie B (1997) Turkish phonology. In: Kaye AS (ed) Phonologies of {Asia and
+  Africa} (including the {Caucasus}), vol~1, Eisenbrauns, Winona Lake, Indiana,
+  pp 883--898
+
+\bibitem[{Dehghani(2000)}]{Dehghani2000}
+Dehghani Y (2000) A grammar of {Iranian Azari}: Including comparisons with
+  {P}ersian. Lincom Europa, M{\"u}nchen
+
+\bibitem[{F{\'e}ry(2003)}]{Fery2003}
+F{\'e}ry C (2003) Markedness, faithfulness, vowel quality and syllable
+  structure in {F}rench. Journal of French Language Studies 13(2):247--280
+
+\bibitem[{Fruehwald(2016)}]{Fruehwald2016}
+Fruehwald J (2016) The early influence of phonology on a phonetic change.
+  Language 92(2):376--410
+
+\bibitem[{Gallagher(2016)}]{Gallagher2016}
+Gallagher G (2016) Vowel height allophony and dorsal place contrasts in
+  {Cochabamba Quechua}. Phonetica 73(2):101--119
+
+\bibitem[{Garrett(2014)}]{Garrett2014}
+Garrett A (2014) Sound change. In: Claire~Bowern BE (ed) The {R}outledge
+  handbook of historical linguistics, Routledge, London \& New York, pp
+  227--248
+
+\bibitem[{Gussenhoven(2007)}]{Gussenhoven2007}
+Gussenhoven C (2007) A vowel height split explained: Compensatory listening and
+  speaker control. Papers in Laboratory Phonology 9: Change in Phonology pp
+  145--172
+
+\bibitem[{Göksel and Kerslake(2005)}]{Goksel2005}
+Göksel A, Kerslake C (2005) Turkish: A Comprehensive Grammar. Routledge,
+  London
+
+\bibitem[{Hulst and Weijer(1991)}]{Hulst1991}
+Hulst Hvd, Weijer Jvd (1991) {Topics in Turkish Phonology}. In: Boeschoten H,
+  Verhoeven L (eds) {Turkish Linguistics Today}, E.~J. Brill, Leiden, pp 11--5
+
+\bibitem[{Inkelas(1999)}]{Inkelas1999}
+Inkelas S (1999) Exceptional stress-attracting suffixes in {T}urkish:
+  representations versus the grammar. In: Kager R, van~der Hulst H, Zonneveld W
+  (eds) The prosody-morphology interface, Cambridge University Press, pp
+  134--187
+
+\bibitem[{Inkelas and Orgun(2003)}]{Inkelas2003}
+Inkelas S, Orgun CO (2003) {T}urkish stress: a review. Phonology
+  20(01):139--161
+
+\bibitem[{Iosad(2012)}]{Iosad2012}
+Iosad P (2012) Vowel reduction in {Russian}: no phonetics in phonology. Journal
+  of Linguistics pp 521--571
+
+\bibitem[{Janda(2003)}]{Janda2003}
+Janda RD (2003) {P}honologization as the start of dephoneticization--or, on
+  sound change and its aftermath: {O}f extension, generalization,
+  lexicalization, and morphologization. In: Joseph BR, Janda RD (eds) The
+  handbook of historical linguistics, Blackwell, Oxford, pp 402--422
+
+\bibitem[{Janda and Joseph(2003)}]{JandaJoseph2003}
+Janda RD, Joseph BD (2003) Reconsidering the canons of sound-change: Towards a
+  ``{Big Bang}'' theory. In: Blake BJ, Burridge K (eds) {Historical Linguistics
+  2001: Selected Papers from the 15\textsuperscript{Th} International
+  Conference on Historical Linguistics}, John Benjamins, Amsterdam, pp 206--19
+
+\bibitem[{Kabak(2011)}]{Kabak2011}
+Kabak B (2011) {Turkish Vowel Harmony}. In: van Oostendorp M, Ewen CJ, Hume E,
+  Rice K (eds) {The Blackwell Companion to Phonology}, Wiley-Blackwell, Oxford,
+  pp 2831--53
+
+\bibitem[{Kabak and Vogel(2001)}]{Kabak2001}
+Kabak B, Vogel I (2001) The phonological word and stress assignment in
+  {T}urkish. Phonology 18(03):315--360
+
+\bibitem[{Kahle and Wickham(2013)}]{ggmap}
+Kahle D, Wickham H (2013) {ggmap}: Spatial visualization with ggplot2. The R
+  Journal 5(1):144--161
+
+\bibitem[{Karahan(1996)}]{Karahan1996}
+Karahan L (1996) Anadolu Ağizlarının Sınıflandırılması, Türk Dil
+  Kurumu, vol 630. Atat{\"u}rk K{\"u}lt{\"u}r, Dil ve Tarih Y{\"u}ksek Kurumu,
+  Ankara
+
+\bibitem[{Kavitskaya(2002)}]{Kavitskaya2002}
+Kavitskaya D (2002) Compensatory Lengthening: Phonetics, Phonology, Diachrony.
+  Outstanding Dissertations in Linguistics, Routledge, London \& New York
+
+\bibitem[{Keel(1982)}]{Keel1982}
+Keel WD (1982) Atomic phonology and phonological variation, vol~16. Gunter Narr
+  T{\"u}bingen
+
+\bibitem[{Kewley-Port and Watson(1994)}]{KewleyPort1994}
+Kewley-Port D, Watson CS (1994) Formant-frequency discrimination for {isolated
+  English} vowels. The Journal of the Acoustical Society of America
+  95(1):485--496, \doi{10.1121/1.410024}
+
+\bibitem[{{Kewley-Port} et~al.(2005){Kewley-Port}, {Bohn}, and
+  {Nishi}}]{KewleyPort2005}
+{Kewley-Port} D, {Bohn} OS, {Nishi} K (2005) {The influence of different native
+  language systems on vowel discrimination and identification}. Acoustical
+  Society of America Journal 117:2399--2399, \doi{10.1121/1.4785992}
+
+\bibitem[{Kiparsky(1995)}]{Kiparsky1995}
+Kiparsky P (1995) The phonological basis of sound change. In: Goldsmith J (ed)
+  The handbook of phonological theory, Blackwell, Oxford, pp 640--670
+
+\bibitem[{Kopkallı(1993)}]{Kopkalli1993}
+Kopkallı H (1993) A phonetic and phonological analysis of final devoicing in
+  {T}urkish. PhD thesis, University of Michigan
+
+\bibitem[{Korkmaz(1965)}]{Korkmaz1965}
+Korkmaz Z (1965) Güney-{B}atı {Anadolu} Ağızları: ses bilgisi (phonetik).
+  Ankara Üniversitesi DTCF Yayini, Ankara
+
+\bibitem[{Kornfilt(1997)}]{Kornfilt1997}
+Kornfilt J (1997) {Turkish}. Routledge, London
+
+\bibitem[{Krakow et~al.(1988)Krakow, Beddor, Goldstein, and
+  Fowler}]{Krakow1988}
+Krakow RA, Beddor PS, Goldstein LM, Fowler CA (1988) {{C}oarticulatory
+  influences on the perceived height of nasal vowels}. J Acoust Soc Am
+  83(3):1146--1158
+
+\bibitem[{Ladefoged(2003)}]{Ladefoged2003}
+Ladefoged P (2003) Phonetic data analysis. Blackwell, Oxford
+
+\bibitem[{Lehiste(1970)}]{Lehiste1970}
+Lehiste I (1970) Suprasegmentals. MIT Press, Cambridge, MA
+
+\bibitem[{Lewis(1967)}]{Lewis1967}
+Lewis GL (1967) {Turkish Grammar}. Oxford University Press, Oxford
+
+\bibitem[{Lindau(1985)}]{Lindau1985}
+Lindau M (1985) The story of /r/. In: Fromkin V (ed) Phonetic Linguistics:
+  Essays in Honor of {Peter Ladefoged}, Academic Press, Orlando, pp 157--168
+
+\bibitem[{Lindblom(1963)}]{Lindblom1963}
+Lindblom B (1963) Spectrographic study of vowel reduction. Journal of the
+  Acoustical Society of America 35:1773--1781
+
+\bibitem[{Lisker(1974)}]{Lisker1974}
+Lisker L (1974) On “explaining” vowel duration variation, tech. Rep.
+  SR-37/38, Haskins Laboratories, New Haven, Connecticut
+
+\bibitem[{Lobanov(1971)}]{Lobanov1971}
+Lobanov BM (1971) Classification of {R}ussian vowels spoken by different
+  speakers. Journal of the Acoustical Society of America 49(2B):606--608
+
+\bibitem[{Maddieson(1985)}]{Maddieson1985}
+Maddieson I (1985) Phonetic cues to syllabification. In: Fromkin V (ed)
+  Phonetic Linguistics: Essays in Honor of {Peter Ladefoged}, Academic Press,
+  Orlando
+
+\bibitem[{Maddieson(1997)}]{Maddieson1997}
+Maddieson I (1997) Phonetic universals. In: Hardcastle W (ed) The Handbook of
+  Phonetic Sciences, Blackwell, Oxford, pp 190--232
+
+\bibitem[{McCloy(2016)}]{phonR}
+McCloy DR (2016) {PhonR}: tools for phoneticians and phonologists. R package
+  version 1.0-7
+
+\bibitem[{Mielke(2004)}]{Mielke2004}
+Mielke J (2004) The emergence of distinctive features. PhD thesis, The Ohio
+  State University
+
+\bibitem[{Mielke(2008)}]{Mielke2008}
+Mielke J (2008) The emergence of distinctive features. Oxford University Press
+
+\bibitem[{Nevins and Vaux(2003)}]{Nevins2003}
+Nevins A, Vaux B (2003) Consonant harmony in {K}araim. In: Csirmaz A, Lee Y,
+  Walter MA (eds) Proceedings of the {Workshop on Altaic in Formal
+  Linguistics}, {MIT Press}, Cambridge, MA, pp 175--194
+
+\bibitem[{Nichols(2011)}]{Nichols2011}
+Nichols J (2011) Ingush Grammar, University of California Publications in
+  Linguistics, vol 143. University of California Press, Berkeley
+
+\bibitem[{Nordhoff(2009)}]{Nordhoff2009}
+Nordhoff S (2009) A grammar of upcountry {Sri Lanka Malay}. PhD thesis,
+  {Utrecht University}
+
+\bibitem[{Ohala(1981)}]{Ohala1981}
+Ohala JJ (1981) The listener as the source of sound change. {CLS} 17:178--203
+
+\bibitem[{Ohala and Ohala(1992)}]{Ohala1992}
+Ohala M, Ohala JJ (1992) Phonetic universals and {H}indi segment duration. In:
+  Second International Conference on Spoken Language Processing, Banff
+
+\bibitem[{Peterson and Lehiste(1960)}]{Peterson1960}
+Peterson GE, Lehiste I (1960) Duration of syllable nuclei in {E}nglish. Journal
+  of the Acoustical Society of America 32(6):693--703
+
+\bibitem[{Proctor(2009)}]{Proctor2009}
+Proctor MI (2009) Gestural characterization of a phonological class: The
+  liquids. PhD thesis, Yale University
+
+\bibitem[{{R Core Team}(2017)}]{R}
+{R Core Team} (2017) R: A Language and Environment for Statistical Computing. R
+  Foundation for Statistical Computing, Vienna, Austria,
+  \urlprefix\url{http://www.R-project.org/}
+
+\bibitem[{Recasens(2002)}]{Recasens1991}
+Recasens D (2002) On the production characteristics of apico-alveolar taps and
+  trills. Journal of Phonetics 19:267--280
+
+\bibitem[{Recasens(2012)}]{Recasens2012}
+Recasens D (2012) Coarticulation in {C}atalan dark [l̴] and the alveolar
+  trill: General implications for sound change. Language and Speech
+  56(1):45--68
+
+\bibitem[{Recasens(2014)}]{Recasens2014}
+Recasens D (2014) Coarticulation and Sound Change in {Romance}. John Benjamins,
+  Amsterdam
+
+\bibitem[{Recasens and Espinosa(2005)}]{Recasens2005}
+Recasens D, Espinosa A (2005) Articulatory, positional and coarticulatory
+  characteristics for clear /l/ and dark /l/: evidence from two {C}atalan
+  dialects. Journal of the International Phonetic Association 35(1):1--25
+
+\bibitem[{Recasens and Pallarès(1999)}]{Recasens1999}
+Recasens D, Pallarès MD (1999) A study of /j/ and /r/ in the light of the
+  “dac” coarticulation model. Journal of Phonetics 27(2):143--169
+
+\bibitem[{Riad(2014)}]{Riad2014}
+Riad T (2014) {The phonology of Swedish}. Oxford University Press, New York
+
+\bibitem[{Rudis et~al.(2017)Rudis, Bolker, and Schulz}]{ggalt}
+Rudis B, Bolker B, Schulz J (2017) {ggalt}: Extra Coordinate Systems, 'Geoms',
+  Statistical Transformations, Scales and Fonts for 'ggplot2'. R package
+  version 0.4.0
+
+\bibitem[{Sak et~al.(2008)Sak, Güngör, and Saraçlar}]{BOUN}
+Sak H, Güngör T, Saraçlar M (2008) Turkish language resources: Morphological
+  parser, morphological disambiguator and web corpus. In: Nordström B, Ranta A
+  (eds) Advances in Natural Language Processing, LNAI, vol 5221, pp 417--427
+
+\bibitem[{Schilling et~al.(2002)Schilling, Watkins, and
+  Watkins}]{Schilling2002}
+Schilling MF, Watkins AE, Watkins W (2002) Is human height bimodal? The
+  American Statistician 56(3):223--229
+
+\bibitem[{Sch{\"o}nig(1998)}]{Schoenig1998Azer}
+Sch{\"o}nig C (1998) Azerbaijanian. Routledge, London \& New York, pp 248--260
+
+\bibitem[{Scobbie(2005)}]{Scobbie2005}
+Scobbie JM (2005) The phonetics phonology overlap. QMU Speech Science Research
+  Centre Working Papers, WP-1
+
+\bibitem[{Sezer(1986)}]{Sezer1986}
+Sezer E (1986) An autosegmental analysis of compensatory lengthening in
+  {Turkish}. In: Wetzels L, Sezer E (eds) Studies in compensatory lengthening,
+  Foris, Dordrecht, pp 227--250
+
+\bibitem[{Silverman(1986)}]{Silverman1986}
+Silverman BW (1986) Density estimation for statistics and data analysis,
+  vol~26. CRC press
+
+\bibitem[{Solé(2002)}]{Sole2002}
+Solé MJ (2002) Aerodynamic characteristics of trills and phonological
+  patterning. Journal of Phonetics 30(4):655 -- 688
+
+\bibitem[{Solé and Ohala(2010)}]{Sole2010}
+Solé MJ, Ohala J (2010) What is and what is not under the control of the
+  speaker: Intrinsic vowel duration. Papers in Laboratory Phonology 10 pp
+  607--655
+
+\bibitem[{Sproat and Fujimura(1993)}]{Sproat1993}
+Sproat R, Fujimura O (1993) Allophonic variation in {E}nglish /l/and its
+  implications for phonetic implementation. {Journal of Phonetics}
+  21(3):291--311
+
+\bibitem[{Storme(2017{\natexlab{a}})}]{Storme2017ms}
+Storme B (2017{\natexlab{a}}) Contrast enhancement motivates closed-syllable
+  laxing and open-syllable tensing, unpublished manuscript, {lingbuzz/003700}
+
+\bibitem[{Storme(2017{\natexlab{b}})}]{Storme2017}
+Storme B (2017{\natexlab{b}}) The \emph{loi de position} and the acoustics of
+  {French} mid vowels. Glossa: a journal of general linguistics 2(1):64
+
+\bibitem[{Storme(2017{\natexlab{c}})}]{Storme2017PhD}
+Storme B (2017{\natexlab{c}}) Perceptual sources for closed-syllable vowel
+  laxing and derived environment effects. PhD thesis, Massachusetts Institute
+  of Technology
+
+\bibitem[{Strycharczuk and Scobbie(2016)}]{Strycharczuk2016}
+Strycharczuk P, Scobbie JM (2016) Gradual or abrupt? the phonetic path to
+  morphologisation. Journal of Phonetics 59:76--91
+
+\bibitem[{Tauberer and Evanini(2009)}]{Tauberer2009}
+Tauberer J, Evanini K (2009) Intrinsic vowel duration and the post-vocalic
+  voicing effect: Some evidence from dialects of {North American English}. In:
+  Proceedings of the 10th Annual Conference of the International Speech
+  Communication Association (Interspeech 2009)
+
+\bibitem[{Toivonen et~al.(2015)Toivonen, Blumenfeld, Gormley, Hoiting, Logan,
+  Ramlakhan, and Stone}]{Toivonen2015}
+Toivonen I, Blumenfeld L, Gormley A, Hoiting L, Logan J, Ramlakhan N, Stone A
+  (2015) Vowel height and duration. In: Steindl U, Borer T, Fang H, Pardo AG,
+  Guekguezian P, Hsu B, O’Hara C, Ouyang IC (eds) Proceedings of the 32nd
+  {West Coast Conference on Formal Linguistics}, Cascadilla Proceedings
+  Project, Somerville, MA, pp 64--71
+
+\bibitem[{Turton(2014)}]{Turton2014}
+Turton D (2014) Variation in {E}nglish /l/: Synchronic reflections of the life
+  cycle of phonological processes. PhD thesis, University of Manchester
+
+\bibitem[{Vigário(2002)}]{Vigario2002}
+Vigário M (2002) The Prosodic Word in {European Portuguese}. De Gruyter
+  Mouton, Berlin, Boston
+
+\bibitem[{West(1999)}]{West1999}
+West P (1999) Perception of distributed coarticulatory properties of {E}nglish
+  /l/ and /r/. Journal of Phonetics 27(4):405--426
+
+\bibitem[{Westbury and Keating(1980)}]{Westbury1980}
+Westbury JR, Keating PA (1980) Central representation of vowel duration.
+  Journal of the Acoustical Society of America 67(S37)
+
+\bibitem[{Yavuz and Balcı(2011)}]{Yavuz2011}
+Yavuz H, Balcı A (2011) Turkish Phonology and Morphology ({T}ürkçe Ses ve
+  Biçim Bilgisi). {Anadolu Üniversitesi}, Eskişehir
+
+\end{thebibliography}

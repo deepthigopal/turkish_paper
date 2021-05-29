@@ -1,0 +1,1021 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.4.8)  28 MAY 2021 17:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-02-25>
+
+LaTeX Warning: File `example.eps' already exists on the system.
+               Not generating it from this source.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) (./svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
+(Springer-SVJour3)           not found in option list of \documentclass
+(Springer-SVJour3)           - autoactivating "global" style.
+(./svglov3.clo
+File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
+
+SVJour Class option: svglov3.clo for standardised journals
+)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
+\logodepth=\dimen134
+\headerboxheight=\dimen135
+\betweenumberspace=\dimen136
+\aftertext=\dimen137
+\headlineindent=\dimen138
+\c@inst=\count163
+\c@auth=\count164
+\instindent=\dimen139
+\authrun=\box45
+\authorrunning=\toks15
+\titrun=\box46
+\titlerunning=\toks16
+\combirun=\box47
+\c@lastpage=\count165
+\rubricwidth=\dimen140
+\c@section=\count166
+\c@subsection=\count167
+\c@subsubsection=\count168
+\c@paragraph=\count169
+\c@subparagraph=\count170
+\spthmsep=\dimen141
+\c@theorem=\count171
+\c@case=\count172
+\c@conjecture=\count173
+\c@corollary=\count174
+\c@definition=\count175
+\c@example=\count176
+\c@exercise=\count177
+\c@lemma=\count178
+\c@note=\count179
+\c@problem=\count180
+\c@property=\count181
+\c@proposition=\count182
+\c@question=\count183
+\c@solution=\count184
+\c@remark=\count185
+\c@figure=\count186
+\c@table=\count187
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\figcapgap=\dimen142
+\tabcapgap=\dimen143
+\figgap=\dimen144
+\bibindent=\dimen145
+\@tempcntc=\count188
+) (/usr/local/texlive/2019/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
+r XeLaTeX)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count189
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen146
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-25 L3 programming layer (loader) 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-02-23 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count190
+\l__pdf_internal_box=\box48
+\g__pdf_backend_object_int=\count191
+\g__pdf_backend_annotation_int=\count192
+))
+Package: xparse 2020-02-25 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count193
+\g__xparse_grabber_int=\count194
+\l__xparse_m_args_int=\count195
+\l__xparse_v_nesting_int=\count196
+)
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count197
+\l__fontspec_language_int=\count198
+\l__fontspec_strnum_int=\count199
+\l__fontspec_tmp_int=\count266
+\l__fontspec_tmpa_int=\count267
+\l__fontspec_tmpb_int=\count268
+\l__fontspec_tmpc_int=\count269
+\l__fontspec_em_int=\count270
+\l__fontspec_emdef_int=\count271
+\l__fontspec_strong_int=\count272
+\l__fontspec_strongdef_int=\count273
+\l__fontspec_tmpa_dim=\dimen147
+\l__fontspec_tmpb_dim=\dimen148
+\l__fontspec_tmpc_dim=\dimen149
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count274
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@eu@=\count275
+\c@eu@i=\count276
+\c@mkern=\count277
+)
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+\symDigits:m:n=\mathgroup4
+\symLatin:m:n=\mathgroup5
+\symLatin:m:it=\mathgroup6
+\symGreek:m:n=\mathgroup7
+\symGreek:m:it=\mathgroup8
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 48.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
+ input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 48.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 48.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/m/it on input lin
+e 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 48.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
+ 48.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
+ 48.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/it --> TU/TimesNewRoman(0)/bx/it 
+on input line 48.
+\symOperators:m:n=\mathgroup9
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box49
+\extrarowheight=\dimen151
+\NC@list=\toks20
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box50
+)
+\everycr=\toks21
+\minrowclearance=\skip51
+)
+\rownum=\count278
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+)
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count279
+\float@exts=\toks22
+\float@box=\box51
+\@float@everytoks=\toks23
+\@floatcapt=\box52
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count280
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
+\@cmidla=\count281
+\@cmidlb=\count282
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
+\@thisruleclass=\count283
+\@lastruleclass=\count284
+\@thisrulewidth=\dimen166
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count285
+\LTcapwidth=\dimen167
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count286
+\LT@rows=\count287
+\c@LT@tables=\count288
+\c@LT@chunks=\count289
+\LT@p@ftn=\toks24
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count290
+\multirow@dima=\skip59
+\bigstrutjot=\dimen168
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box57
+)
+\tc@llx=\dimen169
+\tc@lly=\dimen170
+\tc@urx=\dimen171
+\tc@ury=\dimen172
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen173
+\adjbox@Height=\dimen174
+\adjbox@Depth=\dimen175
+\adjbox@Totalheight=\dimen176
+\adjbox@pwidth=\dimen177
+\adjbox@pheight=\dimen178
+\adjbox@pdepth=\dimen179
+\adjbox@ptotalheight=\dimen180
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count291
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box58
+\sift@deathcycles=\count292
+\@vwid@loff=\dimen181
+\@vwid@roff=\dimen182
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen183
+\Hy@linkcounter=\count293
+\Hy@pagecounter=\count294
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count295
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing ON on input line 4565.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2020/01/14 v1.40 Bibliographical back referencing
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+))
+\c@Hy@tempcnt=\count296
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen184
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count297
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing ON on input line 6443.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count298
+\c@Item=\count299
+\c@Hfootnote=\count300
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2020/01/14 v7.00d Hyperref driver for XeTeX
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box59
+\c@Hy@AnnotLevel=\count301
+\HyField@AnnotCount=\count302
+\Fld@listcount=\count303
+\c@bookmark@seq@number=\count304
+\Hy@SectionHShift=\skip60
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: no abbreviation of names on input line 7852.
+)
+(./template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+Package backref Info: ** backref set up for natbib ** on input line 94.
+\AtBeginShipoutBox=\box60
+Package hyperref Info: Link coloring OFF on input line 94.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count305
+)
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
+ (./template.out) (./template.out)
+\@outlinefile=\write3
+\openout3 = `template.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 123.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 123.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 123.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 123.
+ (./05tr.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/stringenc/se-ascii-print.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+)
+[1] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+File: figures/tikz_vowels1.pdf Graphic file (type pdf)
+<use figures/tikz_vowels1.pdf>
+File: figures/tikz_vowels2.pdf Graphic file (type pdf)
+<use figures/tikz_vowels2.pdf>
+File: figures/tikz_vowels3.pdf Graphic file (type pdf)
+<use figures/tikz_vowels3.pdf>
+[3
+
+]
+
+LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/sc' undefined
+(Font)              using `TU/TimesNewRoman(0)/m/n' instead on input line 65.
+
+[4]
+File: figures/tr_osen_words.pdf Graphic file (type pdf)
+<use figures/tr_osen_words.pdf>
+File: figures/tr_osen_vowels.pdf Graphic file (type pdf)
+<use figures/tr_osen_vowels.pdf>
+ [5] [6]
+Overfull \hbox (18.02382pt too wide) in paragraph at lines 142--143
+\TU/TimesNewRoman(0)/m/sc/10 syllable laxing then admits a connection to those 
+patterns in which syllabically-conditioned
+ []
+
+[7]
+Overfull \hbox (12.9652pt too wide) in paragraph at lines 163--164
+\TU/TimesNewRoman(0)/m/sc/10 Sonorant-triggered—particularly, rhotic-triggered—
+height effects are fairly well-attested
+ []
+
+[8]
+File: figures/tr_elif_bir.png Graphic file (type bmp)
+<figures/tr_elif_bir.png>
+File: figures/tr_elif_diş.png Graphic file (type bmp)
+<figures/tr_elif_diş.png>
+ [9] [10]
+File: figures/tr_map.pdf Graphic file (type pdf)
+<use figures/tr_map.pdf>
+ [11] [12] [13]
+File: figures/tr_gaussian_density.pdf Graphic file (type pdf)
+<use figures/tr_gaussian_density.pdf>
+File: figures/tr_gaussian_density_F2.pdf Graphic file (type pdf)
+<use figures/tr_gaussian_density_F2.pdf>
+File: figures/tr_exploded_density.pdf Graphic file (type pdf)
+<use figures/tr_exploded_density.pdf>
+File: figures/tr_exploded_density_F2.pdf Graphic file (type pdf)
+<use figures/tr_exploded_density_F2.pdf>
+
+Underfull \vbox (badness 2753) has occurred while \output is active []
+
+ [14]
+File: figures/tr_entire_vowelspace_speaker.pdf Graphic file (type pdf)
+<use figures/tr_entire_vowelspace_speaker.pdf>
+
+[15]
+File: figures/tr_f1f2_e.pdf Graphic file (type pdf)
+<use figures/tr_f1f2_e.pdf>
+File: figures/tr_f1f2_e_speaker.pdf Graphic file (type pdf)
+<use figures/tr_f1f2_e_speaker.pdf>
+File: figures/tr_f1f2_ö.pdf Graphic file (type pdf)
+<use figures/tr_f1f2_ö.pdf>
+File: figures/tr_f1f2_ö_speaker.pdf Graphic file (type pdf)
+<use figures/tr_f1f2_ö_speaker.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+[17]
+File: figures/tr_speakers_vowel.pdf Graphic file (type pdf)
+<use figures/tr_speakers_vowel.pdf>
+ [18]
+File: figures/bootstrap/e_1_intercept.pdf Graphic file (type pdf)
+<use figures/bootstrap/e_1_intercept.pdf>
+File: figures/bootstrap/e_2_open.pdf Graphic file (type pdf)
+<use figures/bootstrap/e_2_open.pdf>
+File: figures/bootstrap/e_3_son.pdf Graphic file (type pdf)
+<use figures/bootstrap/e_3_son.pdf>
+File: figures/bootstrap/e_4_stress.pdf Graphic file (type pdf)
+<use figures/bootstrap/e_4_stress.pdf>
+File: figures/bootstrap/e_5_stressopen.pdf Graphic file (type pdf)
+<use figures/bootstrap/e_5_stressopen.pdf>
+File: figures/bootstrap/e_6_stressson.pdf Graphic file (type pdf)
+<use figures/bootstrap/e_6_stressson.pdf>
+
+Overfull \hbox (10.03777pt too wide) in paragraph at lines 384--397
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
+\TU/lmtt/m/n/8 environment $\OMS/cmsy/m/n/8 ^^B$ \TU/lmtt/m/n/8 stress + (1 + e
+nvironment + stress|speaker) + (1 + stress|word)
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 397--397
+\TU/TimesNewRoman(0)/m/sc/8 for /e/. 95% confidence intervals are calculated on
+ 6,000 semi-parametric bootstrap estimates (R:
+ []
+
+[19]
+File: figures/bootstrap/ö_1_intercept.pdf Graphic file (type pdf)
+<use figures/bootstrap/ö_1_intercept.pdf>
+File: figures/bootstrap/ö_2_open.pdf Graphic file (type pdf)
+<use figures/bootstrap/ö_2_open.pdf>
+File: figures/bootstrap/ö_3_son.pdf Graphic file (type pdf)
+<use figures/bootstrap/ö_3_son.pdf>
+File: figures/bootstrap/ö_4_stress.pdf Graphic file (type pdf)
+<use figures/bootstrap/ö_4_stress.pdf>
+File: figures/bootstrap/ö_5_stressopen.pdf Graphic file (type pdf)
+<use figures/bootstrap/ö_5_stressopen.pdf>
+File: figures/bootstrap/ö_6_stressson.pdf Graphic file (type pdf)
+<use figures/bootstrap/ö_6_stressson.pdf>
+
+Overfull \hbox (5.03777pt too wide) in paragraph at lines 426--439
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 439--439
+[]\TU/TimesNewRoman(0)/b/n/8 Table 5|[]\TU/TimesNewRoman(0)/m/sc/8 Estimated me
+ans and derived confidence intervals for fixed effects in the model \TU/lmtt/m/
+n/8 F1 $\OMS/cmsy/m/n/8 ^^X$
+ []
+
+[20]
+File: figures/bootstrap/es_1_intercept.pdf Graphic file (type pdf)
+<use figures/bootstrap/es_1_intercept.pdf>
+File: figures/bootstrap/es_2_open.pdf Graphic file (type pdf)
+<use figures/bootstrap/es_2_open.pdf>
+File: figures/bootstrap/es_3_son.pdf Graphic file (type pdf)
+<use figures/bootstrap/es_3_son.pdf>
+ [21]
+
+LaTeX Warning: Reference `s:tr_classtype' on page 1 undefined on input line 504
+.
+
+[22]
+File: figures/tr_hypocorrecting.pdf Graphic file (type pdf)
+<use figures/tr_hypocorrecting.pdf>
+File: figures/tr_linear.pdf Graphic file (type pdf)
+<use figures/tr_linear.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+
+LaTeX Warning: Reference `s:tr_introduction' on page 1 undefined on input line 
+522.
+
+[24]
+File: figures/tr_son_e.pdf Graphic file (type pdf)
+<use figures/tr_son_e.pdf>
+File: figures/tr_son_ö.pdf Graphic file (type pdf)
+<use figures/tr_son_ö.pdf>
+File: figures/tr_son_e_speaker.pdf Graphic file (type pdf)
+<use figures/tr_son_e_speaker.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+File: figures/tr_e_open_coda.pdf Graphic file (type pdf)
+<use figures/tr_e_open_coda.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Overfull \hbox (1.71198pt too wide) in paragraph at lines 575--576
+\TU/TimesNewRoman(0)/m/sc/10 modeling: as before, and for similar reasons, we f
+it two further mixed-effects models—
+ []
+
+File: figures/bootstrap/son/e_1_intercept.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/e_1_intercept.pdf>
+File: figures/bootstrap/son/e_2_m.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/e_2_m.pdf>
+File: figures/bootstrap/son/e_3_n.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/e_3_n.pdf>
+File: figures/bootstrap/son/e_4_r.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/e_4_r.pdf>
+File: figures/bootstrap/son/e_5_stress.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/e_5_stress.pdf>
+File: figures/bootstrap/son/e_6_stressm.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/e_6_stressm.pdf>
+File: figures/bootstrap/son/e_7_stressn.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/e_7_stressn.pdf>
+File: figures/bootstrap/son/e_8_stressr.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/e_8_stressr.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+File: figures/bootstrap/son/ö_1_intercept.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/ö_1_intercept.pdf>
+File: figures/bootstrap/son/ö_2_m.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/ö_2_m.pdf>
+File: figures/bootstrap/son/ö_3_n.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/ö_3_n.pdf>
+File: figures/bootstrap/son/ö_4_r.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/ö_4_r.pdf>
+File: figures/bootstrap/son/ö_5_stress.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/ö_5_stress.pdf>
+File: figures/bootstrap/son/ö_6_stressm.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/ö_6_stressm.pdf>
+File: figures/bootstrap/son/ö_7_stressn.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/ö_7_stressn.pdf>
+File: figures/bootstrap/son/ö_8_stressr.pdf Graphic file (type pdf)
+<use figures/bootstrap/son/ö_8_stressr.pdf>
+
+
+LaTeX Warning: Reference `s:tr_classtype' on page 1 undefined on input line 623
+.
+
+
+LaTeX Warning: Reference `s:tr_introduction' on page 1 undefined on input line 
+623.
+
+[28]
+File: figures/tr_laterals.pdf Graphic file (type pdf)
+<use figures/tr_laterals.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+File: figures/tr_laterals_position.pdf Graphic file (type pdf)
+<use figures/tr_laterals_position.pdf>
+
+Overfull \hbox (12.45905pt too wide) in paragraph at lines 649--650
+\TU/TimesNewRoman(0)/m/sc/10 One possible origin for the vowel-lowering alterna
+tions that we see is in coda-conditioned
+ []
+
+[30]
+File: figures/tr_heightharmony.pdf Graphic file (type pdf)
+<use figures/tr_heightharmony.pdf>
+ [31]
+Overfull \hbox (4.9509pt too wide) in paragraph at lines 672--673
+\TU/TimesNewRoman(0)/m/sc/10 lowest and highest vowels are inherently constrain
+ed, and therefore there should
+ []
+
+[32]
+File: figures/tr_duration_overall.pdf Graphic file (type pdf)
+<use figures/tr_duration_overall.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+File: figures/tr_duration_overall_nonlinear.pdf Graphic file (type pdf)
+<use figures/tr_duration_overall_nonlinear.pdf>
+File: figures/tr_duration_vowel.pdf Graphic file (type pdf)
+<use figures/tr_duration_vowel.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+File: figures/tr_duration_vowel_nonlinear.pdf Graphic file (type pdf)
+<use figures/tr_duration_vowel_nonlinear.pdf>
+
+[35]
+File: figures/tr_duration_a.pdf Graphic file (type pdf)
+<use figures/tr_duration_a.pdf>
+ [36] [37]
+File: figures/tr_duration_e.pdf Graphic file (type pdf)
+<use figures/tr_duration_e.pdf>
+File: figures/tr_duration_ö.pdf Graphic file (type pdf)
+<use figures/tr_duration_ö.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+File: figures/tr_duration_box_e.pdf Graphic file (type pdf)
+<use figures/tr_duration_box_e.pdf>
+File: figures/tr_duration_box_ö.pdf Graphic file (type pdf)
+<use figures/tr_duration_box_ö.pdf>
+
+[39]
+File: figures/bootstrap/dur_e_1_intercept.pdf Graphic file (type pdf)
+<use figures/bootstrap/dur_e_1_intercept.pdf>
+File: figures/bootstrap/dur_e_2_open.pdf Graphic file (type pdf)
+<use figures/bootstrap/dur_e_2_open.pdf>
+File: figures/bootstrap/dur_e_3_son.pdf Graphic file (type pdf)
+<use figures/bootstrap/dur_e_3_son.pdf>
+File: figures/bootstrap/dur_e_4_stress.pdf Graphic file (type pdf)
+<use figures/bootstrap/dur_e_4_stress.pdf>
+File: figures/bootstrap/dur_e_5_stressopen.pdf Graphic file (type pdf)
+<use figures/bootstrap/dur_e_5_stressopen.pdf>
+File: figures/bootstrap/dur_e_6_stressson.pdf Graphic file (type pdf)
+<use figures/bootstrap/dur_e_6_stressson.pdf>
+
+Underfull \hbox (badness 1152) in paragraph at lines 814--814
+\TU/lmtt/m/n/8 environment $\OMS/cmsy/m/n/8 ^^B$ \TU/lmtt/m/n/8 stress + (1 + e
+nvironment + stress|speaker) + (1|word) \TU/TimesNewRoman(0)/m/sc/8 for /e/. 95
+%
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+File: figures/tr_duration_individual.pdf Graphic file (type pdf)
+<use figures/tr_duration_individual.pdf>
+
+Underfull \vbox (badness 6978) has occurred while \output is active []
+
+ [41]
+File: figures/tr_birthyear_duration.pdf Graphic file (type pdf)
+<use figures/tr_birthyear_duration.pdf>
+File: figures/tr_duration_individual_ö.pdf Graphic file (type pdf)
+<use figures/tr_duration_individual_ö.pdf>
+
+[42]
+
+LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 882.
+
+
+File: figures/tr_highfreq.pdf Graphic file (type pdf)
+<use figures/tr_highfreq.pdf>
+[43]
+File: figures/tr_geminates.pdf Graphic file (type pdf)
+<use figures/tr_geminates.pdf>
+File: figures/tr_clusters.pdf Graphic file (type pdf)
+<use figures/tr_clusters.pdf>
+ [44]
+File: figures/tr_initial.pdf Graphic file (type pdf)
+<use figures/tr_initial.pdf>
+File: figures/tr_mez.pdf Graphic file (type pdf)
+<use figures/tr_mez.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+[46]
+
+LaTeX Warning: Reference `chapter:kazakh' on page 1 undefined on input line 938
+.
+
+[47]
+Overfull \hbox (0.40337pt too wide) in paragraph at lines 951--952
+[]\TU/TimesNewRoman(0)/m/sc/10 Schaffhausen German: /o/-lowering in all dialect
+s before /r/ ([][]Keel[], []1982[]): 
+ []
+
+
+Overfull \hbox (1.14392pt too wide) in paragraph at lines 979--980
+[]\TU/TimesNewRoman(0)/m/sc/10 Schaffhausen German: /o/-lowering never applies 
+before /l/ ([][]Keel[], []1982[]): 
+ []
+
+[48] [49]
+Overfull \hbox (7.56808pt too wide) in paragraph at lines 1017--1018
+[]\TU/TimesNewRoman(0)/m/sc/10 Georgian: o-deletion and o-v alternation. ([][]B
+utskhrikidze[], []2002[], p. 82 & 95) 
+ []
+
+[50] [51] [52] [53]
+Underfull \hbox (badness 1142) in paragraph at lines 1134--1134
+[][][]\TU/TimesNewRoman(0)/m/sc/8 The Trabzon dialects already have a partial /
+e/-/ø/ merger; additionally, /køp/ is itself an ar-
+ []
+
+File: figures/tr_abdiz.pdf Graphic file (type pdf)
+<use figures/tr_abdiz.pdf>
+File: figures/tr_abdiz_avg.pdf Graphic file (type pdf)
+<use figures/tr_abdiz_avg.pdf>
+[54] [55]
+
+LaTeX Warning: Reference `s:diachrony' on page 1 undefined on input line 1190.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
+
+ []
+
+[56]
+
+LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 1238
+.
+
+[57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+
+LaTeX Warning: Reference `s:tr_introduction' on page 1 undefined on input line 
+1269.
+
+
+LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 1271
+.
+
+) (./template.bbl (./template.brf)
+\tf@brf=\write4
+\openout4 = `template.brf'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+[60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
+
+[64]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+ (./template.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: 6A24E0D9F459BF83A0351AD823889DA5;358.
+Package rerunfilecheck Info: File `template.brf' has not changed.
+(rerunfilecheck)             Checksum: DBE46436EE7CE837CE04C492287AD997;7398.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17272 strings out of 479805
+ 333751 string characters out of 5893181
+ 663143 words of memory out of 5000000
+ 34120 multiletter control sequences out of 15000+600000
+ 537502 words of font info for 68 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 50i,14n,69p,2456b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on template.pdf (64 pages).
