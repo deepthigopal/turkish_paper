@@ -5,45 +5,45 @@ The style file: spbasic.bst
 Database file #1: thesis.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty booktitle in Schoenig1998Azer
-You've used 95 entries,
+You've used 92 entries,
             3269 wiz_defined-function locations,
-            1333 strings with 19630 characters,
-and the built_in function-call counts, 78540 in all, are:
-= -- 7061
-> -- 1585
-< -- 121
-+ -- 619
-- -- 478
-* -- 6114
-:= -- 10903
-add.period$ -- 92
-call.type$ -- 95
-change.case$ -- 648
-chr.to.int$ -- 93
-cite$ -- 96
-duplicate$ -- 7225
-empty$ -- 7626
-format.name$ -- 702
-if$ -- 16683
+            1315 strings with 19241 characters,
+and the built_in function-call counts, 75821 in all, are:
+= -- 6810
+> -- 1536
+< -- 118
++ -- 599
+- -- 463
+* -- 5885
+:= -- 10528
+add.period$ -- 89
+call.type$ -- 92
+change.case$ -- 629
+chr.to.int$ -- 90
+cite$ -- 93
+duplicate$ -- 6966
+empty$ -- 7356
+format.name$ -- 682
+if$ -- 16109
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 886
-newline$ -- 295
-num.names$ -- 426
-pop$ -- 1887
+missing$ -- 859
+newline$ -- 286
+num.names$ -- 414
+pop$ -- 1828
 preamble$ -- 1
-purify$ -- 523
+purify$ -- 506
 quote$ -- 0
-skip$ -- 1769
+skip$ -- 1722
 stack$ -- 0
-substring$ -- 7999
-swap$ -- 2066
-text.length$ -- 35
+substring$ -- 7673
+swap$ -- 2015
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 789
+type$ -- 765
 warning$ -- 1
-while$ -- 658
+while$ -- 640
 width$ -- 0
-write$ -- 1060
+write$ -- 1028
 (There was 1 warning)

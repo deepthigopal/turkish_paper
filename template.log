@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.4.8)  28 MAY 2021 17:33
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.4.8)  16 AUG 2021 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,16 +523,26 @@ Package cleveref Info: no abbreviation of names on input line 7852.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX F              
+? 
+./template.tex:94: Emergency stop.
+<inserted text> 
+                \par 
+l.94 \begin{document}
+                     
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 14601 strings out of 479805
+ 269325 string characters out of 5893181
+ 637146 words of memory out of 5000000
+ 31562 multiletter control sequences out of 15000+600000
+ 532802 words of font info for 38 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 50i,0n,69p,886b,248s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+e 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
@@ -619,23 +629,10 @@ File: figures/tr_elif_diş.png Graphic file (type bmp)
  [9] [10]
 File: figures/tr_map.pdf Graphic file (type pdf)
 <use figures/tr_map.pdf>
- [11] [12] [13]
-File: figures/tr_gaussian_density.pdf Graphic file (type pdf)
-<use figures/tr_gaussian_density.pdf>
-File: figures/tr_gaussian_density_F2.pdf Graphic file (type pdf)
-<use figures/tr_gaussian_density_F2.pdf>
-File: figures/tr_exploded_density.pdf Graphic file (type pdf)
-<use figures/tr_exploded_density.pdf>
-File: figures/tr_exploded_density_F2.pdf Graphic file (type pdf)
-<use figures/tr_exploded_density_F2.pdf>
-
-Underfull \vbox (badness 2753) has occurred while \output is active []
-
- [14]
+ [11] [12]
 File: figures/tr_entire_vowelspace_speaker.pdf Graphic file (type pdf)
 <use figures/tr_entire_vowelspace_speaker.pdf>
-
-[15]
+ [13]
 File: figures/tr_f1f2_e.pdf Graphic file (type pdf)
 <use figures/tr_f1f2_e.pdf>
 File: figures/tr_f1f2_e_speaker.pdf Graphic file (type pdf)
@@ -644,14 +641,10 @@ File: figures/tr_f1f2_ö.pdf Graphic file (type pdf)
 <use figures/tr_f1f2_ö.pdf>
 File: figures/tr_f1f2_ö_speaker.pdf Graphic file (type pdf)
 <use figures/tr_f1f2_ö_speaker.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-[17]
+ [14]
 File: figures/tr_speakers_vowel.pdf Graphic file (type pdf)
 <use figures/tr_speakers_vowel.pdf>
- [18]
+ [15] [16] [17]
 File: figures/bootstrap/e_1_intercept.pdf Graphic file (type pdf)
 <use figures/bootstrap/e_1_intercept.pdf>
 File: figures/bootstrap/e_2_open.pdf Graphic file (type pdf)
@@ -665,23 +658,18 @@ File: figures/bootstrap/e_5_stressopen.pdf Graphic file (type pdf)
 File: figures/bootstrap/e_6_stressson.pdf Graphic file (type pdf)
 <use figures/bootstrap/e_6_stressson.pdf>
 
-Overfull \hbox (10.03777pt too wide) in paragraph at lines 384--397
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \TU/lmtt/m/n/8 environment $\OMS/cmsy/m/n/8 ^^B$ \TU/lmtt/m/n/8 stress + (1 + e
 nvironment + stress|speaker) + (1 + stress|word)
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 397--397
+Underfull \hbox (badness 1194) in paragraph at lines 395--395
 \TU/TimesNewRoman(0)/m/sc/8 for /e/. 95% confidence intervals are calculated on
  6,000 semi-parametric bootstrap estimates (R:
  []
 
-[19]
+[18]
 File: figures/bootstrap/ö_1_intercept.pdf Graphic file (type pdf)
 <use figures/bootstrap/ö_1_intercept.pdf>
 File: figures/bootstrap/ö_2_open.pdf Graphic file (type pdf)
@@ -695,43 +683,41 @@ File: figures/bootstrap/ö_5_stressopen.pdf Graphic file (type pdf)
 File: figures/bootstrap/ö_6_stressson.pdf Graphic file (type pdf)
 <use figures/bootstrap/ö_6_stressson.pdf>
 
-Overfull \hbox (5.03777pt too wide) in paragraph at lines 426--439
- [][] 
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 439--439
+Underfull \hbox (badness 1527) in paragraph at lines 437--437
 []\TU/TimesNewRoman(0)/b/n/8 Table 5|[]\TU/TimesNewRoman(0)/m/sc/8 Estimated me
 ans and derived confidence intervals for fixed effects in the model \TU/lmtt/m/
 n/8 F1 $\OMS/cmsy/m/n/8 ^^X$
  []
 
-[20]
 File: figures/bootstrap/es_1_intercept.pdf Graphic file (type pdf)
 <use figures/bootstrap/es_1_intercept.pdf>
 File: figures/bootstrap/es_2_open.pdf Graphic file (type pdf)
 <use figures/bootstrap/es_2_open.pdf>
 File: figures/bootstrap/es_3_son.pdf Graphic file (type pdf)
 <use figures/bootstrap/es_3_son.pdf>
- [21]
-
-LaTeX Warning: Reference `s:tr_classtype' on page 1 undefined on input line 504
-.
-
-[22]
-File: figures/tr_hypocorrecting.pdf Graphic file (type pdf)
-<use figures/tr_hypocorrecting.pdf>
-File: figures/tr_linear.pdf Graphic file (type pdf)
-<use figures/tr_linear.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [19]
+[20]
+
+LaTeX Warning: Reference `s:tr_classtype' on page 1 undefined on input line 502
+.
+
+File: figures/tr_hypocorrecting.pdf Graphic file (type pdf)
+<use figures/tr_hypocorrecting.pdf>
+[21]
+File: figures/tr_linear.pdf Graphic file (type pdf)
+<use figures/tr_linear.pdf>
+
 
 LaTeX Warning: Reference `s:tr_introduction' on page 1 undefined on input line 
-522.
+520.
 
-[24]
+
+Underfull \vbox (badness 4505) has occurred while \output is active []
+
+ [22]
 File: figures/tr_son_e.pdf Graphic file (type pdf)
 <use figures/tr_son_e.pdf>
 File: figures/tr_son_ö.pdf Graphic file (type pdf)
@@ -739,20 +725,16 @@ File: figures/tr_son_ö.pdf Graphic file (type pdf)
 File: figures/tr_son_e_speaker.pdf Graphic file (type pdf)
 <use figures/tr_son_e_speaker.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
+[23]
 File: figures/tr_e_open_coda.pdf Graphic file (type pdf)
 <use figures/tr_e_open_coda.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Overfull \hbox (1.71198pt too wide) in paragraph at lines 575--576
+Overfull \hbox (1.71198pt too wide) in paragraph at lines 573--574
 \TU/TimesNewRoman(0)/m/sc/10 modeling: as before, and for similar reasons, we f
 it two further mixed-effects models—
  []
 
+[24]
 File: figures/bootstrap/son/e_1_intercept.pdf Graphic file (type pdf)
 <use figures/bootstrap/son/e_1_intercept.pdf>
 File: figures/bootstrap/son/e_2_m.pdf Graphic file (type pdf)
@@ -769,10 +751,6 @@ File: figures/bootstrap/son/e_7_stressn.pdf Graphic file (type pdf)
 <use figures/bootstrap/son/e_7_stressn.pdf>
 File: figures/bootstrap/son/e_8_stressr.pdf Graphic file (type pdf)
 <use figures/bootstrap/son/e_8_stressr.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
 File: figures/bootstrap/son/ö_1_intercept.pdf Graphic file (type pdf)
 <use figures/bootstrap/son/ö_1_intercept.pdf>
 File: figures/bootstrap/son/ö_2_m.pdf Graphic file (type pdf)
@@ -790,74 +768,61 @@ File: figures/bootstrap/son/ö_7_stressn.pdf Graphic file (type pdf)
 File: figures/bootstrap/son/ö_8_stressr.pdf Graphic file (type pdf)
 <use figures/bootstrap/son/ö_8_stressr.pdf>
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `s:tr_classtype' on page 1 undefined on input line 623
+ [25]
+
+LaTeX Warning: Reference `s:tr_classtype' on page 1 undefined on input line 621
 .
 
 
 LaTeX Warning: Reference `s:tr_introduction' on page 1 undefined on input line 
-623.
+621.
 
-[28]
+[26]
 File: figures/tr_laterals.pdf Graphic file (type pdf)
 <use figures/tr_laterals.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
 File: figures/tr_laterals_position.pdf Graphic file (type pdf)
 <use figures/tr_laterals_position.pdf>
 
-Overfull \hbox (12.45905pt too wide) in paragraph at lines 649--650
+Underfull \vbox (badness 2393) has occurred while \output is active []
+
+ [27]
+Overfull \hbox (12.45905pt too wide) in paragraph at lines 647--648
 \TU/TimesNewRoman(0)/m/sc/10 One possible origin for the vowel-lowering alterna
 tions that we see is in coda-conditioned
  []
 
-[30]
 File: figures/tr_heightharmony.pdf Graphic file (type pdf)
 <use figures/tr_heightharmony.pdf>
- [31]
-Overfull \hbox (4.9509pt too wide) in paragraph at lines 672--673
+[28]
+Overfull \hbox (4.9509pt too wide) in paragraph at lines 670--671
 \TU/TimesNewRoman(0)/m/sc/10 lowest and highest vowels are inherently constrain
 ed, and therefore there should
  []
 
-[32]
+[29] [30]
 File: figures/tr_duration_overall.pdf Graphic file (type pdf)
 <use figures/tr_duration_overall.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
 File: figures/tr_duration_overall_nonlinear.pdf Graphic file (type pdf)
 <use figures/tr_duration_overall_nonlinear.pdf>
 File: figures/tr_duration_vowel.pdf Graphic file (type pdf)
 <use figures/tr_duration_vowel.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
 File: figures/tr_duration_vowel_nonlinear.pdf Graphic file (type pdf)
 <use figures/tr_duration_vowel_nonlinear.pdf>
-
-[35]
+ [31] [32]
 File: figures/tr_duration_a.pdf Graphic file (type pdf)
 <use figures/tr_duration_a.pdf>
- [36] [37]
+ [33] [34]
 File: figures/tr_duration_e.pdf Graphic file (type pdf)
 <use figures/tr_duration_e.pdf>
 File: figures/tr_duration_ö.pdf Graphic file (type pdf)
 <use figures/tr_duration_ö.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
 File: figures/tr_duration_box_e.pdf Graphic file (type pdf)
 <use figures/tr_duration_box_e.pdf>
 File: figures/tr_duration_box_ö.pdf Graphic file (type pdf)
 <use figures/tr_duration_box_ö.pdf>
-
-[39]
+ [35]
 File: figures/bootstrap/dur_e_1_intercept.pdf Graphic file (type pdf)
 <use figures/bootstrap/dur_e_1_intercept.pdf>
 File: figures/bootstrap/dur_e_2_open.pdf Graphic file (type pdf)
@@ -871,7 +836,7 @@ File: figures/bootstrap/dur_e_5_stressopen.pdf Graphic file (type pdf)
 File: figures/bootstrap/dur_e_6_stressson.pdf Graphic file (type pdf)
 <use figures/bootstrap/dur_e_6_stressson.pdf>
 
-Underfull \hbox (badness 1152) in paragraph at lines 814--814
+Underfull \hbox (badness 1152) in paragraph at lines 812--812
 \TU/lmtt/m/n/8 environment $\OMS/cmsy/m/n/8 ^^B$ \TU/lmtt/m/n/8 stress + (1 + e
 nvironment + stress|speaker) + (1|word) \TU/TimesNewRoman(0)/m/sc/8 for /e/. 95
 %
@@ -880,64 +845,58 @@ nvironment + stress|speaker) + (1|word) \TU/TimesNewRoman(0)/m/sc/8 for /e/. 95
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [36]
+[37]
 File: figures/tr_duration_individual.pdf Graphic file (type pdf)
 <use figures/tr_duration_individual.pdf>
-
-Underfull \vbox (badness 6978) has occurred while \output is active []
-
- [41]
 File: figures/tr_birthyear_duration.pdf Graphic file (type pdf)
 <use figures/tr_birthyear_duration.pdf>
 File: figures/tr_duration_individual_ö.pdf Graphic file (type pdf)
 <use figures/tr_duration_individual_ö.pdf>
+ [38]
 
-[42]
-
-LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 882.
+LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 880.
 
 
+[39]
 File: figures/tr_highfreq.pdf Graphic file (type pdf)
 <use figures/tr_highfreq.pdf>
-[43]
 File: figures/tr_geminates.pdf Graphic file (type pdf)
 <use figures/tr_geminates.pdf>
 File: figures/tr_clusters.pdf Graphic file (type pdf)
 <use figures/tr_clusters.pdf>
- [44]
 File: figures/tr_initial.pdf Graphic file (type pdf)
 <use figures/tr_initial.pdf>
 File: figures/tr_mez.pdf Graphic file (type pdf)
 <use figures/tr_mez.pdf>
+ [40] [41]
+Underfull \vbox (badness 2556) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [42]
 
- [45]
-[46]
-
-LaTeX Warning: Reference `chapter:kazakh' on page 1 undefined on input line 938
+LaTeX Warning: Reference `chapter:kazakh' on page 1 undefined on input line 936
 .
 
-[47]
-Overfull \hbox (0.40337pt too wide) in paragraph at lines 951--952
+[43]
+Overfull \hbox (0.40337pt too wide) in paragraph at lines 949--950
 []\TU/TimesNewRoman(0)/m/sc/10 Schaffhausen German: /o/-lowering in all dialect
 s before /r/ ([][]Keel[], []1982[]): 
  []
 
-
-Overfull \hbox (1.14392pt too wide) in paragraph at lines 979--980
+[44]
+Overfull \hbox (1.14392pt too wide) in paragraph at lines 977--978
 []\TU/TimesNewRoman(0)/m/sc/10 Schaffhausen German: /o/-lowering never applies 
 before /l/ ([][]Keel[], []1982[]): 
  []
 
-[48] [49]
-Overfull \hbox (7.56808pt too wide) in paragraph at lines 1017--1018
+[45]
+Overfull \hbox (7.56808pt too wide) in paragraph at lines 1015--1016
 []\TU/TimesNewRoman(0)/m/sc/10 Georgian: o-deletion and o-v alternation. ([][]B
 utskhrikidze[], []2002[], p. 82 & 95) 
  []
 
-[50] [51] [52] [53]
-Underfull \hbox (badness 1142) in paragraph at lines 1134--1134
+[46] [47] [48] [49]
+Underfull \hbox (badness 1142) in paragraph at lines 1132--1132
 [][][]\TU/TimesNewRoman(0)/m/sc/8 The Trabzon dialects already have a partial /
 e/-/ø/ merger; additionally, /køp/ is itself an ar-
  []
@@ -946,53 +905,49 @@ File: figures/tr_abdiz.pdf Graphic file (type pdf)
 <use figures/tr_abdiz.pdf>
 File: figures/tr_abdiz_avg.pdf Graphic file (type pdf)
 <use figures/tr_abdiz_avg.pdf>
-[54] [55]
+[50] [51]
 
-LaTeX Warning: Reference `s:diachrony' on page 1 undefined on input line 1190.
+LaTeX Warning: Reference `s:diachrony' on page 1 undefined on input line 1188.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
 
  []
 
-[56]
+[53]
 
-LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 1238
+LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 1236
 .
 
-[57]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
+[54]
 
 LaTeX Warning: Reference `s:tr_introduction' on page 1 undefined on input line 
-1269.
+1267.
 
 
-LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 1271
+LaTeX Warning: Reference `chapter:deson' on page 1 undefined on input line 1269
 .
 
-) (./template.bbl (./template.brf)
+) [55] (./template.bbl (./template.brf)
 \tf@brf=\write4
 \openout4 = `template.brf'.
 
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
-[60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [62]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [63])
+ [60])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 
-[64]
+[61]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./template.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 179.
@@ -1000,7 +955,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 6A24E0D9F459BF83A0351AD823889DA5;358.
 Package rerunfilecheck Info: File `template.brf' has not changed.
-(rerunfilecheck)             Checksum: DBE46436EE7CE837CE04C492287AD997;7398.
+(rerunfilecheck)             Checksum: 337547139A5A6EC6F28D000E4EC24EDD;7250.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1010,12 +965,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17272 strings out of 479805
- 333751 string characters out of 5893181
- 663143 words of memory out of 5000000
- 34120 multiletter control sequences out of 15000+600000
+ 17225 strings out of 479805
+ 332511 string characters out of 5893181
+ 660146 words of memory out of 5000000
+ 34073 multiletter control sequences out of 15000+600000
  537502 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 50i,14n,69p,2456b,578s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,14n,69p,2456b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on template.pdf (64 pages).
+Output written on template.pdf (61 pages).

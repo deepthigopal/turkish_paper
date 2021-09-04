@@ -39,7 +39,7 @@ In this section, we set out the case that the remainder of this study will inves
 \subsection{Notes on the overall system}\label{sss:trphonology}
 For the reader's reference, we briefly contextualise the discussion with an overview of salient features of the Turkish phonological system. Turkish is generally understood in the phonological literature to have eight contrastive vowels (\citealt{Hulst1991}, \citealt{Kabak2011}), whose phonological behaviour is well-known (for overview, \citealt{Clements1982,Kabak2011}): processes of backness and rounding harmony both operate left-to-right across roots and suffixes, under the systematic constraint that rounding may only spread to high vowels in non-initial syllables. Although all eight vowels in the system are paired for backness and roundness, it is therefore the case that a gap arises in the non-initial syllables (\cref{fig:trvowelsall}) – the rounded mid vowels do not appear in these positions, save in loanwords. /e/ is therefore the only non-high front vowel that may appear in any position in the word, and the only vowel outside initial syllables that we can see as having `room' to vary freely in height---/i/, /y/, /ɯ/, /u/, and /ɑ/ are all constrained in one direction by the ceiling or the floor of the vowel space. The alternation in \cref{ex:trson} then looks like the right-hand diagram in  \cref{fig:trvowelsall}: pre-sonorant realisations of /e/ and /ø/ \emph{fill a gap} along the front diagonal of the vowel space. \\
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
  \includegraphics[width=0.32\linewidth]{tikz_vowels1}\hfill  \includegraphics[width=0.32\linewidth]{tikz_vowels2} \hfill  \includegraphics[width=0.33\linewidth]{tikz_vowels3}
 \caption{Turkish vowels in initial syllables (left) and in non-initial syllables (center); sonorant-conditioned alternations shown in the Turkish vowel space (right).}
@@ -106,7 +106,7 @@ Unstressed open syllables preceding high vowels /i, y/: /e/ raised (\cref{sss:co
   \end{tabbing}
 \end{example}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.48\linewidth]{tr_osen_words}\hfill
     \includegraphics[width=0.48\linewidth]{tr_osen_vowels}
@@ -177,7 +177,7 @@ Sonorant-triggered---particularly, rhotic-triggered---height effects are fairly 
 % rewrite if you have time
 In general, throughout the phonetically-informed literature, attestation exists of significant effects in F1 conditioned by the presence of an adjacent sonorant. These vary between (what we would diagnose as) the `phonetic' and the `phonological' in their scope, and in which sonorants they involve. What seems broadly uncontroversial is that strong articulatory and acoustic properties of \defs{the rhotics} often favour the development of height effects in a pre-rhotic vowel. The most widely-cited acoustic characteristic of rhoticity as a whole is the lowered third formant \citep{Ladefoged2003}; but see \citet{Lindau1985} for complications. \Cref{fig:tr_rhotic_spectrum} shows spectra for a [ir]$\sim$[iʃ] pair in Turkish, for which there is a small but significant effect of the utterance-final rhotic on the preceding high vowel. The trill in particular \citep{Recasens1991,Recasens1999,Sole2002} has been shown to force tongue dorsum lowering and retraction, which \citet{Proctor2009} suggests (for Latin American Spanish) is a more general property of the whole class of coronal liquids. \citet{Bradley2010}, in a survey of Ibero-Romance, claims---unlike our case---that the effect of the post-vocalic trill on the height of the preceding vowel is strongest in the \textunderscore rV context, and weaker in \textunderscore rC, and attributes this to constraints on articulatory organisation.
 
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
 
   { \textit{bir} [bir̥] `one' \hfill \textit{diş} [diʃ] `tooth' }
@@ -250,7 +250,7 @@ The preponderance of female speakers was an unfortunate artefact of the process 
 
 \footnotetext{Represents a fairly clear instance of dialectal divergence and excluded from overall calculations; see \cref{fig:abdiz} for discussion.}
 
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.90\linewidth,trim={5mm 10mm 5mm 0mm},clip]{tr_map}
   \caption[Map of participants' origins.]{Reference map of participants' origins\footnotemark.}
@@ -280,7 +280,7 @@ For each speaker, one repetition of the wordlist and sentence-list was recorded.
 
 A further set of exploratory data were collected to test systematic patterns of exceptionality, representing a further 300 tokens of /e/. These were excluded from the overall statistical analysis, and were not distributed evenly among speakers: the state of this extra dataset is discussed in detail in subsection \ref{ss:trexceptions}.
 
-All segmentation and acoustic analysis were carried out in \texttt{Praat} \citep{Praat}; target vowels were extracted from the produced tokens, with boundaries inserted manually based on visual inspection of the waveform and spectrogram. In pre-/post- obstruent and pre-pausal contexts, the beginning and end of the target vowel was established with a reasonable degree of confidence by the presence of low-frequency periodic noise and clearly-visible formant structure. For vowels post-sonorant, the initial boundary was placed at the onset of the formant steady-state. Pre-nasal, the appearance of the high-amplitude formants associated with a nasal release was abrupt enough to provide a high-confidence end boundary, but for laterals and rhotics the cues to the transition (formant values, intensity) are typically more gradual; pre-pausal \ur{r} showed significant frication, distinguishing it unambiguously from the target, and the final boundary pre-lateral was placed where a significant change in formant trajectory and intensity coincided.
+All segmentation and acoustic analysis were carried out in \texttt{Praat} \citep{Praat}; target vowels were extracted from the produced tokens, with boundaries inserted manually based on visual inspection of the waveform and spectrogram. In pre-/post- obstruent and pre-pausal contexts, the beginning and end of the target vowel was established with a reasonable degree of confidence by the presence of low-frequency periodic noise and clearly-visible formant structure. For vowels post-sonorant, the initial boundary was placed at the onset of the formant steady-state. Pre-nasal, the appearance of the high-amplitude formants associated with a nasal release was abrupt enough to provide a high-confidence end boundary, but for laterals and rhotics the cues to the transition (formant values, intensity) are typically more gradual; for our data, pre-pausal \ur{r} showed significant frication which distinguished it unambiguously from the target, and the final boundary pre-lateral was placed where significant changes in formant trajectory and in intensity coincided.
 
 F1 and F2 (in Hertz) were measured at 3 points (25\%, 50\%, and 75\% of inter-boundary duration) and averaged, and duration (in milliseconds) was automatically exported by a \texttt{Praat} script. All statistical analysis was done in R \citep{R}. Formant data were then normalised to formant-extrinsic $z$-scores (Lobanov-normalised; \citealt{Lobanov1971, Adank2004}) for comparison across speakers, using the R \texttt{ phonR} package \citep{phonR}.
 
@@ -291,34 +291,32 @@ In this section, we present the acoustic data relating to coda-conditioned heigh
 Since the focus in this discussion is on the comparative state of the system rather than specific physical-acoustic properties for which a rescaling to a Hertz-like value might be of interest, we have presented the Lobanov-normalised/$z$-score measure directly, throughout. For /e/, the range of non-normalised F1 values is $[346.98,1178.94]$ (Hz), and of F2 values $[1136.88,2828.44]$; for /ø/, the F1 range is $[334.02, 851.42]$, and the F2 range is $[1062.01, 2329.58]$.
 
 \subsection{Distribution and categoricity}\label{ss:distrib}
+%
+%In \cref{fig:trwords}, we presented a sample of evidence that pre-sonorant /e/ in forms like unaffixed \emph{heykel} and affixed \emph{heykeli} shows distinct realisations. In this subsection, we demonstrate that these distinct, and distributionally discontinuous /e/-realisations correspond strictly to the nature of the following coda, and claim that this is indicative of a categorical, phonological effect targeting /e/ in syllables closed by a sonorant coda.
+%
+%How do we diagnose a \emph{phonologically}-conditioned effect? The classical criterion that we implicitly cite in \cref{ex:trresyll,fig:trwords} is the existence of morphologically-sensitive \emph{alternation}; affixation destroys the environment for lowering. One straightforward approach when faced with unstructured empirical data is to search for bimodality in the acoustic signal: if some phonetic parameter P has a discontinuous distribution, the probability that P is subject to some phonological effect increases\footnote{For complications, cf.~\citet{Scobbie2005}: broadly, phonetic discontinuity signals categoricity, continuous distribution signals gradience; but this is subject to various confounds and empirical difficulties.}. Probability density functions (PDFs) on (Lobanov-normalised) F1 and F2 are given in figure \ref{fig:trdensity}, representing the distribution of all tokens of each `phonemic' vowel category in the experimental result; an idealised Gaussian distribution with identical mean and standard deviation has been overlaid to aid the reader's eye in assessing deviation from a normal model. F1 and F2 distributions for /e/ are strongly bimodal (i.e. have two local maxima); Hartigan's dip test indicates that the distribution of both parameters is not unimodal (strongly so for F1: $p$ 0.03597; weakly for F2: $p$ 0.08897).
+%
+%\begin{figure}[ht]
+%  \includegraphics[width=0.49\linewidth]{tr_gaussian_density}
+%  \hfill
+%  \includegraphics[width=0.49\linewidth]{tr_gaussian_density_F2}
+%  \caption[Probability density functions for F1 and F2, all categories.]{Probability density functions for F1 and F2, Lobanov-normalised across all speakers, in 8 vowel categories, with overlaid idealised Gaussian.}
+%  \label{fig:trdensity}
+%\end{figure}
+%
+%Figure \ref{fig:trexploded} suggests that this bimodality derives from the composition of distinct distributions for the contextual realisations of /e/. If the sample is decomposed by context (syllable closed by {\it obstruent}, syllable closed by {\it sonorant}, open syllable), basis density functions can be calculated post-resampling whose maxima differ, but whose individual behaviour is no longer multimodal; the modes for these recalculated functions correspond to the multiple maxima in \cref{fig:trdensity}. The probability density function across all tokens for \ur{\o} shows no obvious bimodality on initial examination, but an apparent effect arises---especially in F1---on visual inspection when decomposed by context\footnote{The existence of multiple `real' modes in a sample can be masked by insufficient overall distance, as with the superposition of two normal distributions whose means differ by less than the sum of their standard deviations---see for overview \citealt{Schilling2002}}.
+%
+%\begin{figure}[ht]
+%  \includegraphics[width=0.49\linewidth]{tr_exploded_density}
+%    \hfill
+%  \includegraphics[width=0.49\linewidth]{tr_exploded_density_F2}
+%  \caption[F1 \& F2 probability density functions, by environment.]{F1 \& F2 probability density functions, by environment. Dotted line: overall PDF from figure \ref{fig:trdensity}.}
+%  \label{fig:trexploded}
+%\end{figure}
 
-In \cref{fig:trwords}, we presented a sample of evidence that pre-sonorant /e/ in forms like unaffixed \emph{heykel} and affixed \emph{heykeli} shows distinct realisations. In this subsection, we demonstrate that these distinct, and distributionally discontinuous /e/-realisations correspond strictly to the nature of the following coda, and claim that this is indicative of a categorical, phonological effect targeting /e/ in syllables closed by a sonorant coda.
+%\subsubsection{The overall picture}
 
-How do we diagnose a \emph{phonologically}-conditioned effect? The classical criterion that we implicitly cite in \cref{ex:trresyll,fig:trwords} is the existence of morphologically-sensitive \emph{alternation}; affixation destroys the environment for lowering. One straightforward approach when faced with unstructured empirical data is to search for bimodality in the acoustic signal: if some phonetic parameter P has a discontinuous distribution, the probability that P is subject to some phonological effect increases\footnote{For complications, cf.~\citet{Scobbie2005}: broadly, phonetic discontinuity signals categoricity, continuous distribution signals gradience; but this is subject to various confounds and empirical difficulties.}. Probability density functions\footnotemark (PDFs) on (Lobanov-normalised) F1 and F2 are given in figure \ref{fig:trdensity}, representing the distribution of all tokens of each `phonemic' vowel category in the experimental result; an idealised Gaussian distribution with identical mean and standard deviation has been overlaid to aid the reader's eye in assessing deviation from a normal model. F1 and F2 distributions for /e/ are strongly bimodal (i.e. have two local maxima); Hartigan's dip test indicates that the distribution of both parameters is not unimodal (strongly so for F1: $p$ 0.03597; weakly for F2: $p$ 0.08897).
-
-\footnotetext{These and further PDFs following are calculated using `kernel density estimation' \citep{Silverman1986}, which {\it non-parametrically} estimates the probability density function for a random variable given a finitely-sized data sample: being unbound to any predetermined shape, kernel density estimates are better able to capture the presence or absence of irregularities in the distribution of data than parametric estimates. In base R: function \texttt{ density}; in \texttt{ ggplot2}: \texttt{ stat\_density}.}
-
-\begin{figure}[H]
-  \includegraphics[width=0.49\linewidth]{tr_gaussian_density}
-  \hfill
-  \includegraphics[width=0.49\linewidth]{tr_gaussian_density_F2}
-  \caption[Probability density functions for F1 and F2, all categories.]{Probability density functions for F1 and F2, Lobanov-normalised across all speakers, in 8 vowel categories, with overlaid idealised Gaussian.}
-  \label{fig:trdensity}
-\end{figure}
-
-Figure \ref{fig:trexploded} suggests that this bimodality derives from the composition of distinct distributions for the contextual realisations of /e/. If the sample is decomposed by context (syllable closed by {\it obstruent}, syllable closed by {\it sonorant}, open syllable), basis density functions can be calculated post-resampling whose maxima differ, but whose individual behaviour is no longer multimodal; the modes for these recalculated functions correspond to the multiple maxima in \cref{fig:trdensity}. The probability density function across all tokens for \ur{\o} shows no obvious bimodality on initial examination, but an apparent effect arises---especially in F1---on visual inspection when decomposed by context\footnote{The existence of multiple `real' modes in a sample can be masked by insufficient overall distance, as with the superposition of two normal distributions whose means differ by less than the sum of their standard deviations---see for overview \citealt{Schilling2002}}.
-
-\begin{figure}[H]
-  \includegraphics[width=0.49\linewidth]{tr_exploded_density}
-    \hfill
-  \includegraphics[width=0.49\linewidth]{tr_exploded_density_F2}
-  \caption[F1 \& F2 probability density functions, by environment.]{F1 \& F2 probability density functions, by environment. Dotted line: overall PDF from figure \ref{fig:trdensity}.}
-  \label{fig:trexploded}
-\end{figure}
-
-\subsubsection{The overall picture}
-
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\linewidth]{tr_entire_vowelspace_speaker}
   \caption[F2$\times$F1 space, individual speaker means only.]{F2$\times$F1 space, by vowel category and following environment: each point represents the mean measurement for a single speaker's productions of a particular vowel in the indicated environment; the size of a point denotes the number of tokens represented. 95\% confidence ellipses indicate the overall spread of the \emph{token-by-token} data for a particular vowel.}
@@ -327,9 +325,9 @@ Figure \ref{fig:trexploded} suggests that this bimodality derives from the compo
 
 Figure \ref{fig:tr_vowelspace_speaker} shows the Lobanov-normalised F2$\times$F1 space for all 11 \emph{female} speakers, averaged over all tokens across the 8 underlying vowel categories and separated by stress\footnote{For all figures in this paper, `environment' refers to the following segment, and `unstressed' and `stressed' may safely also be read as `non-final' and `final' respectively.}. Each point represents the mean value for a single speaker's productions of a given vowel in a given context, with point size scaled by the number of tokens considered. In \cref{fig:tr_e,fig:tr_ö}, F2$\times$F1 space for /e/ and /\o/ are shown individually, both token-by-token and averaged over the speakers in the sample.
 
-The clear initial generalisation that we reaffirm here is that realisations of /e/ in pre-sonorant contexts diverge strongly and unambiguously from those in other contexts, subject to very little variation; realisations of /ø/ in pre-sonorant contexts also diverge from those in other environments, but the effect appears to be much smaller, and we might claim that there is more variation between speakers. One further striking observation that emerges naturally from \cref{fig:tr_vowelspace_speaker} is the prevalence of strong height effects, presumably coarticulatorily-driven, for open vowels in non-final (that is, unstressed) syllables; the tendency of vowels in unstressed open syllables to be higher (have lower F1) is weak only for /e/.
+The clear initial generalisation  is that realisations of /e/ in pre-sonorant contexts diverge strongly and unambiguously from those in other contexts, subject to very little variation; realisations of /ø/ in pre-sonorant contexts also diverge from those in other environments, but the effect appears to be much smaller, and we might claim that there is more variation between speakers. One further striking observation that emerges naturally from \cref{fig:tr_vowelspace_speaker} is the prevalence of strong height effects, presumably coarticulatorily-driven, for open vowels in non-final (that is, unstressed) syllables; the tendency of vowels in unstressed open syllables to be higher (have lower F1) is weak only for /e/.
 
-% \begin{figure}[H]
+% \begin{figure}[ht]
 %   \centering
 %   \includegraphics[width=\linewidth]{tr_entire_vowelspace}
 %   \caption[F2$\times$F1 space, by vowel category and following environment.]{F2$\times$F1 space, by vowel category and following environment: each point corresponds to a single token, with shape denoting the categorisation of the following coda (obstruent, sonorant, or empty). Ellipses indicate regions of 95\% confidence. }
@@ -340,7 +338,7 @@ The clear initial generalisation that we reaffirm here is that realisations of /
 %
 % f1f2avg()+scale_y_reverse(limits=c(2.5,-1.6),sec.axis = dup_axis(name=''))+scale_x_reverse(position="top",sec.axis = dup_axis(name=''),limits=c(2,-2))+theme(text=element_text(size=15))
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.8\linewidth]{tr_f1f2_e}
     \includegraphics[width=0.8\linewidth]{tr_f1f2_e_speaker}
@@ -348,7 +346,7 @@ The clear initial generalisation that we reaffirm here is that realisations of /
   \label{fig:tr_e}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.8\linewidth]{tr_f1f2_ö}
     \includegraphics[width=0.8\linewidth]{tr_f1f2_ö_speaker}
@@ -361,7 +359,7 @@ Several preliminary generalisations emerge from \cref{fig:tr_vowelspace_speaker,
 
 Although \cref{fig:tr_e,fig:tr_ö} include speaker averages, they do not indicate the correspondence between individual points and speakers \emph{across categories}. In \cref{fig:tr_speakers_individual}, averaged F1 measurement is visualised, by speaker and environment, for both the mid vowels /e ø/; this is more indicative of the \emph{variation} in the relationship between the three major contexts (and in particular, the relationship between pre-obstruent mean and the open-syllable mean) by individual. Pre-sonorant /e/ is invariant across speakers in its separation from other contexts; the major locus of differences between speakers is the relationship between pre-obstruent /e/ and open-syllable /e/, which varies to the extent of undergoing reversals between individual speakers. Pre-sonorant /ø/ also follows a general speaker-independent trend, but again, individuals vary in the extent to which category separation arises for the other environments. It is reasonable to ask here whether the various loci of individual variation are substantially cross-correlated: do certain /e/-systems correspond to particular /ø/-systems? We revisit this question in \cref{ss:trvariation}, and throughout the discussion that follows, we discuss and model the extent to which the effects that we claim here can be held to be robust and significant.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \includegraphics[width=\linewidth]{tr_speakers_vowel.pdf}
   \caption[Normalised F1 by individual speaker, for /e/ and /ø/.]{Normalised F1 by individual speaker, for /e/ and /ø/, averaged over stressed and unstressed contexts. Error bars show one standard deviation.}
   \label{fig:tr_speakers_individual}
@@ -380,7 +378,7 @@ In tables corresponding to random effects, `variance' and `SD' (standard deviati
 As an index and as an analytically sound alternative to `$p$-values' in a case in which these are non-meaningful\footnote{Cf. \cite{lme4}: in complex models involving e.g. partially-crossed designs, the null distributions of parameter estimates are not $t$-distributed for finite samples, but computing a $p$-value based on the degrees of freedom for a $t$-distribution (or symmetrically, estimates based on the $F$ statistic) makes such asymptotic assumptions. The well-supported alternative, for the purpose of deciding on significance, is bootstrapping---simulating data from the fitted model, refitting the model, and re-extracting new estimated parameters---from which confidence intervals can be calculated; if the null hypothesis could correspond to points within the confidence interval for a given parameter (i. e. the parameter's effect could be zero), then it cannot be rejected in that context.}, 95\% confidence intervals are given for each fixed term in the model, calculated via semi-parametric bootstrap estimation. Parameters whose value is statistically significant by this measure (that is, non-inclusive of the null) have been marked *. As a guideline, $t$-values greater than 2 should be considered significant.
 
 \begin{table}[H]
-  \centering
+  \centering \footnotesize
   \begin{tabular}{lrccr}
     \toprule
     \textsc{Parameter} & \textsc{Estimate} & \textsc{95\% confidence} & \textsc{Bootstrap} & $t$-value\\
@@ -399,7 +397,7 @@ As an index and as an analytically sound alternative to `$p$-values' in a case i
 \end{table}
 
 \begin{table}[H]
-  \centering\small
+  \centering\footnotesize
   \begin{tabular}{llrrrrr}
     \toprule
     \textsc{Group} & \textsc{} & \textsc{Variance} & \textsc{SD} & \multicolumn{3}{c}{\textsc{Correlation}}\\
@@ -422,7 +420,7 @@ As an index and as an analytically sound alternative to `$p$-values' in a case i
 It's evident from \cref{tab:tr_lme_e,tab:tr_lme_ö} that the predicted difference between tokens in sonorant-coda \emph{unstressed} syllables and all other unstressed tokens is large and statistically significant for both /e/ and /\o/, as expected; the interaction with stress is substantial. The presence of (primary) stress reduces F1 in pre-sonorant /e/, but does not remove the large context separation; since, however, this is difficult to clearly adduce from the coefficients presented, as not every possible ordered pair of two-factor interactions is compared by the model\footnote{That is: no coefficient directly compares e. g. \{open, stressed\} and \{sonorant, stressed\}}, \cref{tab:tr_lme_e_stressed} gives the relevant terms and estimates of significance from another mixed-effects model fitted for the \emph{stressed} subset of /e/-tokens alone, with random effects retained as above and the single fixed effect of environment. Modeling predicts no difference between pre-obstruent /e/ and /e/ in open syllables if both are unstressed; \cref{tab:tr_lme_e_stressed} confirms that in stressed contexts, these differ, with F1$_\textsc{obstruent}$ $<$ F1$_\textsc{open}$. We argue that separating out the stressed and unstressed contexts here is not an unprincipled decision; there is a reasonably robust cross-linguistic basis for the claim that these might differ in the phonology, and there \emph{is} an overall significant effect of stress itself on vowel quality. In \cref{sss:coarticulation,ss:trduration}, we argue that there is indeed a larger interaction with stress-conditioned height and duration effects.
 
 \begin{table}[H]
-  \centering
+  \centering\footnotesize
   \begin{tabular}{lrccr}
     \toprule
     \textsc{Parameter} & \textsc{Estimate} & \textsc{95\% confidence} & \textsc{Bootstrap} & $t$-value \\
@@ -442,7 +440,7 @@ It's evident from \cref{tab:tr_lme_e,tab:tr_lme_ö} that the predicted differenc
 \footnotetext{Recall that only four data points went into this estimate.}
 
 \begin{table}[H]
-  \centering\small
+  \centering\footnotesize
   \begin{tabular}{llrrrrr}
     \toprule
     \textsc{Group} & \textsc{} & \textsc{Variance} & \textsc{SD} & \multicolumn{3}{c}{\textsc{Correlation}}\\
@@ -462,7 +460,7 @@ It's evident from \cref{tab:tr_lme_e,tab:tr_lme_ö} that the predicted differenc
 \end{table}
 
 \begin{table}[H]
-  \centering
+  \centering\footnotesize
   \begin{tabular}{lrccr}
     \toprule
     \textsc{Parameter} & \textsc{Estimate} & \textsc{95\% confidence} & \textsc{Bootstrap} & $t$-value\\
@@ -477,7 +475,7 @@ It's evident from \cref{tab:tr_lme_e,tab:tr_lme_ö} that the predicted differenc
 \end{table}
 
 \begin{table}[H]
-  \centering\small
+  \centering\footnotesize
   \begin{tabular}{llrrrrr}
     \toprule
     \textsc{Group} & \textsc{} & \textsc{Variance} & \textsc{SD} & \multicolumn{3}{c}{\textsc{Correlation}}\\
@@ -503,7 +501,7 @@ In \cref{sss:tr_son_effects}, we considered the extent to which the individual s
 
 If it is really the case that different coda sonorants constitute different sizes of trigger, then we might well expect a difference in within-context realisations of pre-sonorant /e ø/, further conditioned by the individual coda segment. If this difference is visible in the data, how should it be understood? To recapitulate a little of the discussion in \cref{s:tr_classtype} with a visual example, models of sound change as \defs{hypocorrecting} change \citep{Ohala1981} should predict that precursors of different strengths \emph{induce effects of different sizes} and thus cause change to take place at different rates across the different coda contexts; as \citet{Fruehwald2016}, hypocorrective changes proceed proportionally to the sizes of their precursors. Assume a hypothetical parameter $p$, which varies over time in several different contexts; at each time step, $p$ is incremented by an amount corresponding to a contextual bias favouring change. For contexts corresponding to biases of 0.1, 0.25, and 0.5 respectively, the parameter's evolution over time appears in \cref{fig:tr_hypo_example} (after \citealt[378]{Fruehwald2016}); after a few steps, values across contexts are further apart than they were initially.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.45\linewidth]{tr_hypocorrecting}
   \caption[A rough illustration of hypocorrection.]{A prototype of a \emph{purely hypocorrecting} change: different biases cause unequal incrementation and different end realisations of phonetically-controlled parameter $p$. Conditions: $p$ starts at 0, and is incremented by the value of the bias at each time step. }
@@ -512,7 +510,7 @@ If it is really the case that different coda sonorants constitute different size
 
 There are then multiple possible interpretations if we find a real statistical effect differentiating one pre-sonorant context from another. If the pathway of change was the one schematised in \cref{fig:tr_hypo_example}, then a visible difference across coda sonorants represents the end-product (or the intermediate point) of a hypocorrecting change: if the mechanism of phonologisation \emph{remains} strictly hypocorrecting throughout, then we expect the effect of the initial difference in bias strength to be linearly multiplied over time. The alternate hypothesis is that the incrementation of phonological change is not strictly proportional to the strength of contextual phonetic biases; any visible difference across coda sonorants should be taken to represent \emph{the original} triggering bias, but not the incrementation and compounding of that bias. If the fictional parameter in \cref{fig:tr_hypo_example} is subject to an \emph{initial} `phonetic' bias differentiating its values across contexts, but then undergoes a fixed increment at each time step, we arrive at the situation in \cref{fig:tr_nonhypo_example}.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.45\linewidth]{tr_linear}
   \caption[A rough illustration of constant-slope change.]{Change with a non-additive bias; we still see different end realisations of the phonetically-controlled parameter $p$, but the size of the contextual effect now remains constant. Initial conditions: $p$ is 0.1, 0.25, 0.5 in the appropriate contexts, and is incremented by 0.1 at each time-step.}
@@ -525,21 +523,21 @@ Consider the F2$\times$F1 scatterplots given in \cref{fig:tr_e_codas,fig:tr_ö_c
 
 Examining the F2$\times$F1 landscape after averaging and weighting by speaker (\cref{fig:tr_e_speaker}), however, suggests that the majority of this pre-rhotic effect can be attributed to productions from two speakers, F01 (Istanbul, b. 1997) and F04 (Izmir, b. 1988). F01 shows a generally higher F1 across contexts than other speakers, but all cross-context variation is well within confidence intervals and cannot be attributed to a `real' effect. The separation between pre-rhotic tokens and other pre-sonorant tokens for F04 appears genuinely significant, and may represent an individual idiosyncracy in production. In the following \cref{sss:trcodamodel}, statistical models are presented that account for interspeaker variation.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.75\linewidth]{tr_son_e}
   \caption[F2$\times$F1 space for pre-sonorant /e/, by individual coda segment.]{F2$\times$F1 space for pre-sonorant /e/, by individual coda segment. Each point corresponds to one vowel produced by a single speaker.}
   \label{fig:tr_e_codas}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.75\linewidth]{tr_son_ö}
   \caption[F2$\times$F1 space for pre-sonorant /\o/, by individual coda segment.]{F2$\times$F1 space for pre-sonorant /\o/, by individual coda segment. Each point corresponds to one vowel produced by a single speaker.}
   \label{fig:tr_ö_codas}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.75\linewidth]{tr_son_e_speaker}
   \caption[F2$\times$F1 space for pre-sonorant /e/, averaged by speaker and coda.]{F2$\times$F1 space for pre-sonorant /e/, by individual coda segment. Each point corresponds to the \textit{mean} of all corresponding tokens for a single speaker. Speakers F01 and F04, both of whom show particularly high F1 values in pre-rhotic contexts, are highlighted.}
@@ -563,7 +561,7 @@ sek.re.ter     & ker.ten.ke.le  & ge.nel     & te.mel \\
 \label{tab:tr_e_open_codas}
 \end{table}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.75\linewidth]{tr_e_open_coda}
   \caption[F2$\times$F1 space for /e/ in open syllables preceding sonorant onsets.]{F2$\times$F1 space for /e/ in \textit{open syllables}, by the content of the immediately following syllable onset. Each point corresponds to one vowel produced by a single speaker.}
@@ -626,14 +624,14 @@ I reference in \cref{sss:trphonology} the descriptive claim that the Turkish /l/
 
 The remarks in this section constitute a very preliminary study of the acoustic properties of the Turkish lateral; the intent is not at all to provide a full study, but to characterise in broad strokes the expected nature of the transition in /el/: can /e/-lowering in /el/ admit a simple coarticulatory explanation? In order to test this, all instances of /l/ were extracted from the production data collected in this study, for measurement. Across 11 (female) speakers, this yielded 627 tokens for analysis; of these, 53 were discarded due to regressive manner assimilations (to coronals s, z, n) or due to phrase-final devoicing and frication leading to unreliable formant measurements. For the remaining 574 datapoints, F1 and F2 were measured at the midpoint, to give a rough indicator of the `frontness' of the lateral. A summary visualisation appears in \cref{fig:trlateral}; tokens were coded `front', `back', and `disharmonic' by adjacent vowel (respectively: exclusively i, y, e, \o; exclusively ɯ, u, a, o; one vowel from both sets).
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\linewidth]{tr_laterals}
   \caption[F2$\times$F1 distribution for the lateral /l/ by vocalic environment.]{F2$\times$F1 space for the lateral /l/, measured at midpoint, by vocalic environment: `disharmonic' tokens are adjacent in the string to both a front vowel (i, e $\sim$ æ, y, ø $\sim$ œ) and a back vowel (ɯ, u, o, ɑ), within a single syllable or across the syllable boundary.}
   \label{fig:trlateral}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\linewidth]{tr_laterals_position}
   \caption[F2$\times$F1 distribution for fronted /l/ by syllabic position.]{F2$\times$F1 space for \textit{fronted} tokens of lateral /l/, measured at midpoint, by position.}
@@ -652,7 +650,7 @@ One possible origin for the vowel-lowering alternations that we see is in coda-c
 
 Recall from \cref{tab:tr_lme_e,tab:tr_lme_e_stressed} that there were statistically-significant estimates distinguishing /e/-realisations in \emph{stressed} and \emph{unstressed} open syllables, and in \emph{stressed} syllables for each of the three environment types, but that we could not reject the zero-difference hypothesis for `obstruent' and `open' in unstressed syllables. In terms of our estimated parameters, this is as follows: F1$_\textsc{obstruent}$ $\sim$ F1$_\textsc{open}$ $<$ F1$_\textsc{sonorant}$ in unstressed syllables, but F1$_\textsc{obstruent}$ $<$ F1$_\textsc{open}$ $<$ F1$_\textsc{sonorant}$ in unstressed syllables. Both cases for /e/ are distinct from the case for unstressed /o/, for which F1$_\textsc{open}$ $<$ F1$_\textsc{obstruent}$ $<$ F1$_\textsc{sonorant}$. One possibility is that the state of unstressed /e/ is in fact a \emph{superposition} of an /o/-like case (open $<$ obstruent $<$ sonorant) and a stressed-/e/-like case (obstruent $<$ open $<$ sonorant).
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.8\linewidth]{tr_heightharmony}
   \caption[F2$\times$F1 space for /e/ in unstressed open syllables.]{F2$\times$F1 space for /e/, with the high vowels /i/ and /y/. Ellipse: 95\% confidence region for tokens of \textbf{/i/}. One point corresponds to the \emph{mean} across all tokens of a single word.}
@@ -683,7 +681,7 @@ In this subsection, we take a filtered dataset corresponding to all `reasonable'
 
 
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.84\linewidth]{tr_duration_overall}
   \caption[Duration plotted against F1 for all points in the sample.]{All points in the sample: Lobanov-normalised F1 plotted against duration in milliseconds, with each point representing one token and coloured by vowel category; panels are split by the presence or absence of stress on the corresponding syllable. The line in each panel represents the best linear-model fit for \texttt{F1 $\sim$ duration}, with no further predictors. Tests of correlation: \emph{unstressed} Pearson's $r = 0.4057$, $t$ 20.103 on 2051 degrees of freedom $p < 2.2$e$-16$; \emph{stressed} Pearson's $r = 0.2418$, $t$ 12.237 on 2410 degrees of freedom $p < 2.2$e$-16$.}
@@ -691,21 +689,21 @@ In this subsection, we take a filtered dataset corresponding to all `reasonable'
 \end{figure}
 
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.84\linewidth]{tr_duration_overall_nonlinear}
   \caption[Duration plotted against F1 for all points in the sample, with cubic spline fit.]{All points in the sample: Lobanov-normalised F1 plotted against duration in milliseconds, with each point representing one token and coloured by vowel category; panels are split by the presence or absence of stress on the corresponding syllable. The line in each panel represents the best \emph{cubic spline} fit for \texttt{F1 $\sim$ duration}, with no further predictors.}
   \label{fig:trdurationoverall_nonlinear}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.84\linewidth]{tr_duration_vowel}
   \caption[Duration plotted against F1, linear fit by vowel category.]{All points in the sample: Lobanov-normalised F1 plotted against duration in milliseconds, with each point representing one token and coloured by vowel category; panels are split by the presence or absence of stress on the corresponding syllable. Smoothing lines represent the best linear-model fit for \texttt{F1 $\sim$ duration}, for each vowel. Correlation statistics: \cref{tab:tr_duration_vowel}.}
   \label{fig:trdurationvowel}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.84\linewidth]{tr_duration_vowel_nonlinear}
   \caption[Duration plotted against F1, cubic spline fit by vowel category.]{All points in the sample: Lobanov-normalised F1 plotted against duration in milliseconds, with each point representing one token and coloured by vowel category; panels are split by the presence or absence of stress on the corresponding syllable. Smoothing lines represent the best \textit{cubic spline} for \texttt{F1 $\sim$ duration}, for each vowel.}
@@ -753,7 +751,7 @@ If the apparent dependence of F1 on duration is really dominated by uneven numbe
 
 Consider the indicative figure given in \cref{fig:trdurationa}, which represents the best-fit linear model for \texttt{F1 $\sim$ duration} for tokens of underlying /ɑ/, subdivided further by environment: this suggests that the apparent F1-duration relationship for /ɑ/ lies almost entirely in unstressed (non-final) open syllables.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\linewidth]{tr_duration_a}
   \caption[\texttt{F1 $\sim$ duration} correlation for /ɑ/, split by environment.]{\texttt{F1 $\sim$ duration}: for all tokens of /ɑ/ in the sample, Lobanov-normalised F1 plotted against duration in milliseconds, with each line representing the best linear-model fit for tokens in the corresponding syllabic environment.}
@@ -766,14 +764,14 @@ Consider the visualisations in \cref{fig:trduratione,fig:trdurationö}. We can a
 
 \paragraph{Unstressed vowel reduction} Recall \cref{sss:coarticulation}, in which tokens of /e/ in unstressed open syllables appeared to be raised if followed by /i/. The durational effect shown in \cref{fig:trduratione} persists even if tokens of this type are excluded from the sample; that is, persists in all unstressed open syllables independent of following context. The reason that this is interesting is then the long history of proposals connecting (or disconnecting) phonology and phonetics in vowel reduction \citep{Barnes2007,Iosad2012}; is there a systematic effect that we can characterise in either or both of /e ø/, and can it be related back to the sonorant-conditioned pattern? The best answer that we can give to this question is a little speculative. There is no such effect for /ø/; but recall from \cref{fig:trdurationa} the substantial relationship between height and duration for /a/ in unstressed open syllables, which was large enough to drive the false appearance of a cross-category effect across all vowels. The best interim conclusion is that in line with \citet{Tauberer2009,Sole2010,Toivonen2015}, we should take seriously the idea that correlative relationships between durational targets and height targets are systematically set by the grammar; learners are perhaps biased towards the acquisition of a unidirectional relationship (that is, towards the general predictions of physiology), but it need not be the case that this relationship exists in the same state for every category, even within a single language.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.9\linewidth]{tr_duration_e}
   \caption[\texttt{F1 $\sim$ duration} correlation for /e/, split by environment.]{\texttt{F1 $\sim$ duration}: for all tokens of /e/ in the sample, Lobanov-normalised F1 plotted against duration in milliseconds, with each line representing the best linear-model fit for tokens in the corresponding syllabic environment.}
   \label{fig:trduratione}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.9\linewidth]{tr_duration_ö}
   \caption[\texttt{F1 $\sim$ duration} correlation for /ø/, split by environment.]{\texttt{F1 $\sim$ duration}: for all tokens of /ø/ in the sample, Lobanov-normalised F1 plotted against duration in milliseconds, with each line representing the best linear-model fit for tokens in the corresponding syllabic environment.}
@@ -782,13 +780,13 @@ Consider the visualisations in \cref{fig:trduratione,fig:trdurationö}. We can a
 
 \subsubsection{Dependencies within the mid vowels} Setting aside the issue of the relationship between duration and \emph{height}, is there a systematic effect of conditioning environment on the duration of an individual vowel? Even in the absence of within-category correlation between duration and height, significant cross-category differences in duration can still exist, and can still represent some form of systematic relationship between conditioning environment and target. Cross-category significance would also rescue an account of the phonologisation of pre-sonorant lowering in which there is either some significant biasing pressure of duration, or some significant movement of durational targets in tandem with height targets. We plot per-category duration in \cref{fig:tr_duration_e_proper,fig:tr_duration_ö_proper}, list the results of a linear mixed-effects model for per-category duration of /e/ in \cref{tab:tr_lme_duration_e,tab:tr_lme_duration_e_random}, and consider the potential for individual variation in \cref{fig:tr_duration_individual,fig:tr_duration_individual_ö}.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \includegraphics[width=\linewidth]{tr_duration_box_e.pdf}
   \caption[Duration by conditioning category for /e/.]{Box-plot of duration, by conditioning coda environment and split by stress, for all tokens of /e/ in the sample.}
   \label{fig:tr_duration_e_proper}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \includegraphics[width=\linewidth]{tr_duration_box_ö.pdf}
   \caption[Duration by conditioning category for /ø/.]{Box-plot of duration, by conditioning coda environment and split by stress, for all tokens of /ø/ in the sample.}
   \label{fig:tr_duration_ö_proper}
@@ -856,20 +854,20 @@ As before, a linear mixed-effects model was chosen in order to mitigate some of 
 
 We can then ask whether this relationship continues to hold across individual speakers. The distributions of duration for each of the 11 female speakers in the sample are visualised in \cref{fig:tr_duration_individual,fig:tr_duration_individual_ö} for /e/ and /ø/ respectively. Qualitatively, there is no strong differential in the pattern visible across speakers for unstressed /e/, which is broadly concordant with the overall statement we give in \cref{dur_relationship}. The pattern in stressed /e/ is more variable, in the sense that there is an apparent reversal of the broad hierarchy of environments; for \emph{older} speakers, like F08, F09, F10, and F11, the ordering of predicted durations of stressed /e/ runs sonorant $>$ open $>$ obstruent, which is counter to the behaviour of \emph{younger} speakers for whom the prediction is instead open $>$ sonorant $>$ obstruent. Although the sample given in this paper suffers from a rather severe lack of time depth, as an indicative illustration we plot the relationship between year of birth and /e/-duration in \cref{fig:tr_duration_e_birthyear}. The pattern in /ø/ is more generally constant; there is no evidence for conditioning by age that meets statistical qualifications for significance, nor a particularly strong qualitative pattern, unless the youngest speaker's reversal of the typical ordering in unstressed syllables (F01) is to be taken as representative of a genuinely distinct system.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \includegraphics[width=\linewidth]{tr_duration_individual.pdf}
   \caption[Duration (ms) by individual speaker, for /e/.]{Duration in milliseconds, by individual speaker and split by stress, for /e/.}
   \label{fig:tr_duration_individual}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
 \centering
   \includegraphics[width=0.7\linewidth]{tr_birthyear_duration}
   \caption[Duration (ms) by year of birth of individual speakers, for stressed /e/.]{Duration in milliseconds, by speaker's year of birth, for stressed /e/.}
   \label{fig:tr_duration_e_birthyear}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \includegraphics[width=\linewidth]{tr_duration_individual_ö.pdf}
   \caption[Duration (ms) by individual speaker, for /ø/.]{Duration in milliseconds, by individual speaker and split by stress, for /ø/.}
   \label{fig:tr_duration_individual_ö}
@@ -887,28 +885,28 @@ I have spent the previous sections arguing for generality and categoricity in th
 
 We are unable to find any evidence of exceptionality in /ø/, although due to the size of the test set and the greater incidence of variability in /ø/, this should be taken with a certain amount of salt. If it is genuinely the case that there is no real exceptionality for /ø/, then this is broadly consistent with a model in which the `phonological' status of lowering in /e/ is further advanced, and thus amenable to effects violating strict phonetic conditioning (see eg.\citealt{BermudezOtero2015}. If lowering generalises to /\o/ after /e/, we expect /\o/ to be behind in stabilisation).
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\linewidth]{tr_highfreq}
   \caption[F2$\times$F1 space for all tokens of /e/; sporadic, lexical variability.]{F2$\times$F1 space for all tokens of /e/, with apparently lexically-conditioned variability highlighted for \emph{el} [el $\sim$ \ae l] `hand', and \emph{kendi} [ken.di $\sim$ k\ae n.di] `self'; each point represents the production of a single speaker.}
   \label{fig:highfreq}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\linewidth]{tr_geminates}
   \caption[F2$\times$F1 space for all tokens of /e/, geminate sonorant contexts highlighted.]{F2$\times$F1 space for all tokens of /e/; exceptional `true geminates' are highlighted and labelled, along with /tel-lI/ [t\ae l.li] `wired' for comparison. One point represents one speaker's production.}
   \label{fig:tr_geminates}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\linewidth]{tr_clusters}
   \caption[F2$\times$F1 space for all tokens of /e/, coda NC and RC contexts highlighted.]{F2$\times$F1 space for all tokens of /e/; coda N+C clusters and coda R+C clusters are highlighted and labelled.}
   \label{fig:tr_clusters}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\linewidth]{tr_initial}
   \caption[F2$\times$F1 space for all tokens of /e/, showing initial-syllable exceptions.]{F2$\times$F1 space for /e/, all tokens shown in background. Highlighted points are averaged: one point in the space represents the average over all tokens for a target vowel in a particular word. Exceptionally-behaving initial syllables are marked, along with similar-seeming items whose patterning shows no corresponding exceptionality.}
@@ -917,7 +915,7 @@ We are unable to find any evidence of exceptionality in /ø/, although due to th
 
 \subsection{Generalisations to the voiced fricatives}\label{sss:trvobst}
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\linewidth]{tr_mez}
   \caption[F2$\times$F1 space for all tokens of /e/, showing pre-/z/ lowering.]{F2$\times$F1 space for /e/, all tokens shown in background. Each highlighted point represents a single token, for a single speaker, of an item containing the negative aorist /mez/; either \emph{gelmez} [g\ae l.m\ae z] `not come', or \emph{geçmez} [getʃ.m\ae z] `not go'.}
@@ -1157,7 +1155,7 @@ Western Anatolian & /e/-[æ] & /r/  \\
 
 In the data we present in \cref{ss:distrib}, which represent in total a fairly coherent variety of the language, a relationship holds exceptionlessly between sonorant environment and vowel height. For the variant systems in the `non-standard' dialects that appear immediately above, this is also the case; these systems differ from the consensus variety in the details of their phonological conditioning, but shared consistently the presence of \emph{phonetically abrupt} mid-vowel lowering. Consider the non-normalised F2$\times$F1 space in \cref{fig:abdiz} below; each point represents one token produced by a single speaker (\cref{tab:tr_metadata}: M03) from the eastern city of Kars, and the whole is indicative of a very divergent dialect.
 
-\begin{figure}[H]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.49\linewidth]{tr_abdiz}
     \includegraphics[width=0.49\linewidth]{tr_abdiz_avg}
